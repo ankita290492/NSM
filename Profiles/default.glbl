@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>URL</description>
+      <initValue>'http://siachen:8007/NSMvendor'</initValue>
+      <name>URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Branch maker Name</description>
+      <initValue>'Harshada'</initValue>
+      <name>BrMakerName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Branch Maker Password</description>
+      <initValue>'1234@asd'</initValue>
+      <name>BrMakerPwd</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Cluster User name</description>
+      <initValue>'avdhut'</initValue>
+      <name>ClName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Cluster User Password</description>
+      <initValue>'cxz@4321'</initValue>
+      <name>ClPwd</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Circle User Name</description>
+      <initValue>'dinesh'</initValue>
+      <name>CrName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Circle User Password</description>
+      <initValue>'NoMercy@2346'</initValue>
+      <name>CrPwd</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Branch checker name</description>
+      <initValue>'shrutika'</initValue>
+      <name>BrCkName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Branch checker Password</description>
+      <initValue>'Shru12345'</initValue>
+      <name>BrCkPwd</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Central maker name</description>
+      <initValue>'ankita'</initValue>
+      <name>CeMkName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Central Checker name</description>
+      <initValue>'shweta'</initValue>
+      <name>CeCkName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Central User maker password</description>
+      <initValue>'0504@avn'</initValue>
+      <name>CeMkPwd</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Central checker user password</description>
+      <initValue>'Sep@2018'</initValue>
+      <name>CeCkPwd</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Vendor user name</description>
+      <initValue>'vendor01'</initValue>
+      <name>VndName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Vendor user password</description>
+      <initValue>'Abc@1234'</initValue>
+      <name>VndPwd</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
