@@ -1,0 +1,63 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Request_initiate_Return_Flow,Chrome 70.0.3538.110,,2018-12-06 12:33:39,2018-12-06 12:36:47,3m - 7.982s,FAILED
+,,,,,,
+Test Cases/Branch User Maker/Request_Initiate,Chrome 70.0.3538.110,,2018-12-06 12:33:39,2018-12-06 12:35:07,1m - 27.888s,PASSED
+"openBrowser("""")",Chrome 70.0.3538.110,,2018-12-06 12:33:40,2018-12-06 12:33:45,5.616s,PASSED
+maximizeWindow(),Chrome 70.0.3538.110,,2018-12-06 12:33:45,2018-12-06 12:33:48,2.142s,PASSED
+navigateToUrl(URL),Chrome 70.0.3538.110,,2018-12-06 12:33:48,2018-12-06 12:33:49,1.241s,PASSED
+"setText(findTestObject(""Object Repository/Request_initiate/Page_Login Page/input_Vendor platform_userid""), BrMakerName)",Chrome 70.0.3538.110,,2018-12-06 12:33:49,2018-12-06 12:33:53,4.335s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Request_initiate/Page_Login Page/input_Vendor platform_password""), BrMakerPwd)",Chrome 70.0.3538.110,,2018-12-06 12:33:53,2018-12-06 12:33:56,3.270s,PASSED
+"click(findTestObject(""Object Repository/Request_initiate/Page_Login Page/input_Vendor platform_btnlogin""))",Chrome 70.0.3538.110,,2018-12-06 12:33:56,2018-12-06 12:34:01,4.122s,PASSED
+AlertPresent = waitForAlert(5),Chrome 70.0.3538.110,,2018-12-06 12:34:01,2018-12-06 12:34:02,1.027s,PASSED
+if (AlertPresent == true),Chrome 70.0.3538.110,,2018-12-06 12:34:02,2018-12-06 12:34:04,2.044s,PASSED
+"click(findTestObject(""Request_initiate/Page_Bank Dashboard/span_Procurement Request (1)""))",Chrome 70.0.3538.110,,2018-12-06 12:34:04,2018-12-06 12:34:06,2.161s,PASSED
+"click(findTestObject(""Request_initiate/Page_Bank Dashboard/a_Initiate""))",Chrome 70.0.3538.110,,2018-12-06 12:34:06,2018-12-06 12:34:08,2.546s,PASSED
+"click(findTestObject(""Object Repository/Request_initiate/Page_Procurement Request Initiate/button_Save""))",Chrome 70.0.3538.110,,2018-12-06 12:34:08,2018-12-06 12:34:11,2.134s,PASSED
+acceptAlert(),Chrome 70.0.3538.110,,2018-12-06 12:34:11,2018-12-06 12:34:13,2.016s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Request_initiate/Page_Procurement Request Initiate/select_--Select--product1produ""), ""13"", true)",Chrome 70.0.3538.110,Positive Value,2018-12-06 12:34:13,2018-12-06 12:34:31,18.364s,PASSED
+"setText(findTestObject(""Object Repository/Request_initiate/Page_Procurement Request Initiate/input__fromBundleRange""), ""50"")",Chrome 70.0.3538.110,,2018-12-06 12:34:31,2018-12-06 12:34:35,4.181s,PASSED
+"setText(findTestObject(""Object Repository/Request_initiate/Page_Procurement Request Initiate/input__toBundleRange""), ""1000"")",Chrome 70.0.3538.110,,2018-12-06 12:34:35,2018-12-06 12:34:39,4.182s,PASSED
+"click(findTestObject(""Object Repository/Request_initiate/Page_Procurement Request Initiate/i_Attachments_fa fa-paperclip""))",Chrome 70.0.3538.110,,2018-12-06 12:34:39,2018-12-06 12:34:41,2.164s,PASSED
+"switchToWindowTitle(""Procurement Request Attachments"")",Chrome 70.0.3538.110,,2018-12-06 12:34:41,2018-12-06 12:34:48,6.106s,PASSED
+"uploadFile(findTestObject(""Object Repository/Request_initiate/attachment/Page_Procurement Request Attachment/input_Choose more files_files0""), ""C:\Users\ankita\Desktop\retest\data.txt"")",Chrome 70.0.3538.110,,2018-12-06 12:34:48,2018-12-06 12:34:50,2.108s,PASSED
+"click(findTestObject(""Object Repository/Request_initiate/Page_Procurement Request Attachment/button_Attach""))",Chrome 70.0.3538.110,,2018-12-06 12:34:50,2018-12-06 12:34:52,2.496s,PASSED
+"switchToWindowTitle(""Procurement Request Initiate"")",Chrome 70.0.3538.110,,2018-12-06 12:34:52,2018-12-06 12:34:55,3.026s,PASSED
+"click(findTestObject(""Object Repository/Request_initiate/Page_Procurement Request Initiate/button_Save""))",Chrome 70.0.3538.110,,2018-12-06 12:34:55,2018-12-06 12:34:58,2.558s,PASSED
+"click(findTestObject(""Object Repository/Request_initiate/Page_Procurement Request Initiate/button_Clear""))",Chrome 70.0.3538.110,,2018-12-06 12:34:58,2018-12-06 12:35:00,2.504s,PASSED
+"click(findTestObject(""Object Repository/Logout/Page_Bank Dashboard/span_Harshada""))",Chrome 70.0.3538.110,,2018-12-06 12:35:00,2018-12-06 12:35:03,2.253s,PASSED
+"click(findTestObject(""Object Repository/Logout/Page_Bank Dashboard/b_Logout""))",Chrome 70.0.3538.110,,2018-12-06 12:35:03,2018-12-06 12:35:05,2.524s,PASSED
+"click(findTestObject(""Object Repository/Logout/Page_Logout Page/a_Login""))",Chrome 70.0.3538.110,,2018-12-06 12:35:05,2018-12-06 12:35:07,2.191s,PASSED
+,,,,,,
+Test Cases/Branch User Checker/Request Return,Chrome 70.0.3538.110,,2018-12-06 12:35:07,2018-12-06 12:36:47,1m - 39.763s,FAILED
+"setText(findTestObject(""Object Repository/Request_initiate/Page_Login Page/input_Vendor platform_userid""), BrCkName)",Chrome 70.0.3538.110,,2018-12-06 12:35:08,2018-12-06 12:35:12,4.180s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Request_initiate/Page_Login Page/input_Vendor platform_password""), BrCkPwd)",Chrome 70.0.3538.110,,2018-12-06 12:35:12,2018-12-06 12:35:15,3.153s,PASSED
+"click(findTestObject(""Object Repository/Request_initiate/Page_Login Page/input_Vendor platform_btnlogin""))",Chrome 70.0.3538.110,,2018-12-06 12:35:15,2018-12-06 12:35:17,2.539s,PASSED
+AlertPresent = waitForAlert(5),Chrome 70.0.3538.110,,2018-12-06 12:35:17,2018-12-06 12:35:18,1.006s,PASSED
+if (AlertPresent == true),Chrome 70.0.3538.110,,2018-12-06 12:35:18,2018-12-06 12:35:20,2.018s,PASSED
+"click(findTestObject(""Request_initiate/Page_Bank Dashboard/span_Procurement Request (1)""))",Chrome 70.0.3538.110,,2018-12-06 12:35:20,2018-12-06 12:35:23,2.145s,PASSED
+"click(findTestObject(""Object Repository/Request_initiate/Page_Bank Dashboard/a_Authorize""))",Chrome 70.0.3538.110,,2018-12-06 12:35:23,2018-12-06 12:35:25,2.492s,PASSED
+"click(findTestObject(""Object Repository/Request Authorize/Page_Procurement Request Authorize/button_Return""))",Chrome 70.0.3538.110,,2018-12-06 12:35:25,2018-12-06 12:35:27,2.129s,PASSED
+acceptAlert(),Chrome 70.0.3538.110,,2018-12-06 12:35:27,2018-12-06 12:35:29,2.013s,PASSED
+"click(findTestObject(""Object Repository/Request_initiate/Page_Procurement Request Initiate/button_List""))",Chrome 70.0.3538.110,,2018-12-06 12:35:29,2018-12-06 12:35:31,2.137s,PASSED
+"switchToWindowTitle(""Search"")",Chrome 70.0.3538.110,,2018-12-06 12:35:31,2018-12-06 12:35:37,6.096s,PASSED
+"setText(findTestObject(""Object Repository/Request_initiate/Page_Search/input_Product Name_Product Nam""), ""product3"")",Chrome 70.0.3538.110,,2018-12-06 12:35:37,2018-12-06 12:35:42,4.187s,PASSED
+"click(findTestObject(""Object Repository/Request_initiate/Page_Search/input""))",Chrome 70.0.3538.110,,2018-12-06 12:35:42,2018-12-06 12:35:44,2.454s,PASSED
+"click(findTestObject(""Object Repository/Request_initiate/Page_Search/td_product1""))",Chrome 70.0.3538.110,,2018-12-06 12:35:44,2018-12-06 12:35:46,2.101s,PASSED
+"switchToWindowTitle(""Procurement Request Authorize"")",Chrome 70.0.3538.110,,2018-12-06 12:35:46,2018-12-06 12:35:49,3.025s,PASSED
+"setText(findTestObject(""Object Repository/Request Authorize/Page_Procurement Request Authorize/textarea_Return Reason_returnQ""), ""LOREM IPSUM DOLOR SIT AMET, CONSECTETUER ADIPISCING ELIT. AENEAN COMMODO LIGULA EGET DOLOR. AENEAN MASSA. CUM SOCIIS NATOQUE PENATIBUS ET MAGNIS DIS PARTURIENT MONTES, NASCETUR RIDICULUS MUS. DONEC QUAM FELIS, ULTRICIES NEC, PELLENTESQUE EU, PRETIUM QUIS, SEM. NULLA CONSEQUAT MASSA QUIS ENIM. DONEC PEDE JUSTO, FRINGILLA VEL, ALIQUET NEC, VULPUTATE EGET, ARCU. IN ENIM JUSTO, RHONCUS UT, IMPERDIET A, VENENATIS VITAE, JUSTO. NULLAM DICTUM FELIS EU PEDE MOLLIS PRETIUM. INTEGER TINCIDUNT. CRAS DAPIBUS. VIVAMUS ELEMENTUM SEMPER NISI. AENEAN VULPUTATE ELEIFEND TELLUS. AENEAN LEO LIGULA, PORTTITOR EU, CONSEQUAT VITAE, ELEIFEND AC, ENIM. ALIQUAM LOREM ANTE, DAPIBUS IN, VIVERRA QUIS, FEUGIAT A, TELLUS. PHASELLUS VIVERRA NULLA UT METUS VARIUS LAOREET. QUISQUE RUTRUM. AENEAN IMPERDIET. ETIAM ULTRICIES NISI VEL AUGUE. CURABITUR ULLAMCORPER ULTRICIES NISI. NAM EGET DUI. ETIAM RHONCUS. MAECENAS TEMPUS, TELLUS EGET CONDIMENTUM RHONCUS, SEM QUAM SEMPER LIBERO, SIT AMET ADIPISCING SEM NEQUE SED IPSUM. N"")",Chrome 70.0.3538.110,,2018-12-06 12:35:49,2018-12-06 12:35:57,7.297s,PASSED
+"click(findTestObject(""Object Repository/Request Authorize/Page_Procurement Request Authorize/button_Return""))",Chrome 70.0.3538.110,,2018-12-06 12:35:57,2018-12-06 12:35:59,2.557s,PASSED
+"click(findTestObject(""Object Repository/Logout/Page_Bank Dashboard/span_Harshada""))",Chrome 70.0.3538.110,,2018-12-06 12:35:59,2018-12-06 12:36:01,2.105s,PASSED
+"click(findTestObject(""Object Repository/Logout/Page_Bank Dashboard/b_Logout""))",Chrome 70.0.3538.110,,2018-12-06 12:36:01,2018-12-06 12:36:04,2.492s,PASSED
+"click(findTestObject(""Object Repository/Logout/Page_Logout Page/a_Login""))",Chrome 70.0.3538.110,,2018-12-06 12:36:04,2018-12-06 12:36:06,2.189s,PASSED
+"setText(findTestObject(""Object Repository/Request_initiate/Page_Login Page/input_Vendor platform_userid""), BrMakerName)",Chrome 70.0.3538.110,,2018-12-06 12:36:06,2018-12-06 12:36:10,4.208s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Request_initiate/Page_Login Page/input_Vendor platform_password""), BrMakerPwd)",Chrome 70.0.3538.110,,2018-12-06 12:36:10,2018-12-06 12:36:13,3.148s,PASSED
+"click(findTestObject(""Object Repository/Request_initiate/Page_Login Page/input_Vendor platform_btnlogin""))",Chrome 70.0.3538.110,,2018-12-06 12:36:13,2018-12-06 12:36:16,2.565s,PASSED
+AlertPresent = waitForAlert(5),Chrome 70.0.3538.110,,2018-12-06 12:36:16,2018-12-06 12:36:22,6.048s,PASSED
+if (AlertPresent == true),Chrome 70.0.3538.110,,2018-12-06 12:36:22,2018-12-06 12:36:22,0.000s,PASSED
+"click(findTestObject(""Request_initiate/Page_Bank Dashboard/span_Procurement Request (1)""))",Chrome 70.0.3538.110,,2018-12-06 12:36:22,2018-12-06 12:36:24,2.106s,PASSED
+"click(findTestObject(""Request_initiate/Page_Bank Dashboard/a_Initiate""))",Chrome 70.0.3538.110,,2018-12-06 12:36:24,2018-12-06 12:36:26,2.514s,PASSED
+"click(findTestObject(""Object Repository/Request_initiate/Page_Procurement Request Initiate/button_List""))",Chrome 70.0.3538.110,,2018-12-06 12:36:26,2018-12-06 12:36:29,2.169s,PASSED
+"switchToWindowTitle(""Search"")",Chrome 70.0.3538.110,,2018-12-06 12:36:29,2018-12-06 12:36:35,6.087s,PASSED
+"setText(findTestObject(""Object Repository/Request_initiate/Page_Search/input_Product Name_Product Nam""), ""product1"")",Chrome 70.0.3538.110,,2018-12-06 12:36:35,2018-12-06 12:36:39,4.183s,PASSED
+"click(findTestObject(""Object Repository/Request_initiate/Page_Search/input""))",Chrome 70.0.3538.110,,2018-12-06 12:36:39,2018-12-06 12:36:41,2.486s,PASSED
+"click(findTestObject(""Object Repository/Request_initiate/Page_Search/td_product1""))",Chrome 70.0.3538.110,,2018-12-06 12:36:41,2018-12-06 12:36:47,5.599s,FAILED

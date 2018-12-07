@@ -16,7 +16,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>Branch Maker Password</description>
-      <initValue>'1234@asd'</initValue>
+      <initValue>'Gm0rGD2cgBcYCl0NDX8huQ=='</initValue>
       <name>BrMakerPwd</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -26,7 +26,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>Cluster User Password</description>
-      <initValue>'cxz@4321'</initValue>
+      <initValue>'mVrZMbWASBZ0lp4ZN5kRjw=='</initValue>
       <name>ClPwd</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -36,7 +36,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>Circle User Password</description>
-      <initValue>'NoMercy@2346'</initValue>
+      <initValue>'PbR8iGkPHPCyOGKAnfhGyQ=='</initValue>
       <name>CrPwd</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -46,7 +46,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>Branch checker Password</description>
-      <initValue>'Shru12345'</initValue>
+      <initValue>'iTixIKCnIihYdvTELsqxjQ=='</initValue>
       <name>BrCkPwd</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -61,12 +61,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>Central User maker password</description>
-      <initValue>'0504@avn'</initValue>
+      <initValue>'0su8JPdqOrtdMpZY9tcdMw=='</initValue>
       <name>CeMkPwd</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>Central checker user password</description>
-      <initValue>'Sep@2018'</initValue>
+      <initValue>'vNVb6EA88+z6MgvacYbj0w=='</initValue>
       <name>CeCkPwd</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -76,7 +76,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>Vendor user password</description>
-      <initValue>'Abc@1234'</initValue>
+      <initValue>'RfES2L809yyT69vCWLoDzQ=='</initValue>
       <name>VndPwd</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

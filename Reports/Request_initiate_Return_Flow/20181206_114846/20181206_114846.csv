@@ -1,0 +1,52 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Request_initiate_Return_Flow,Chrome 70.0.3538.110,,2018-12-06 11:48:48,2018-12-06 11:51:26,2m - 38.596s,FAILED
+,,,,,,
+Test Cases/Branch User Maker/Request_Initiate,Chrome 70.0.3538.110,,2018-12-06 11:48:48,2018-12-06 11:50:20,1m - 31.326s,PASSED
+"openBrowser("""")",Chrome 70.0.3538.110,,2018-12-06 11:48:49,2018-12-06 11:48:54,5.550s,PASSED
+maximizeWindow(),Chrome 70.0.3538.110,,2018-12-06 11:48:54,2018-12-06 11:48:57,2.158s,PASSED
+navigateToUrl(URL),Chrome 70.0.3538.110,,2018-12-06 11:48:57,2018-12-06 11:48:58,1.322s,PASSED
+"setText(findTestObject(""Object Repository/Request_initiate/Page_Login Page/input_Vendor platform_userid""), BrMakerName)",Chrome 70.0.3538.110,,2018-12-06 11:48:58,2018-12-06 11:49:02,4.303s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Request_initiate/Page_Login Page/input_Vendor platform_password""), BrMakerPwd)",Chrome 70.0.3538.110,,2018-12-06 11:49:02,2018-12-06 11:49:05,3.267s,PASSED
+"click(findTestObject(""Object Repository/Request_initiate/Page_Login Page/input_Vendor platform_btnlogin""))",Chrome 70.0.3538.110,,2018-12-06 11:49:05,2018-12-06 11:49:10,4.345s,PASSED
+AlertPresent = waitForAlert(5),Chrome 70.0.3538.110,,2018-12-06 11:49:10,2018-12-06 11:49:16,6.071s,PASSED
+if (AlertPresent == true),Chrome 70.0.3538.110,,2018-12-06 11:49:16,2018-12-06 11:49:16,0.001s,PASSED
+"click(findTestObject(""Request_initiate/Page_Bank Dashboard/span_Procurement Request (1)""))",Chrome 70.0.3538.110,,2018-12-06 11:49:16,2018-12-06 11:49:18,2.140s,PASSED
+"click(findTestObject(""Request_initiate/Page_Bank Dashboard/a_Initiate""))",Chrome 70.0.3538.110,,2018-12-06 11:49:18,2018-12-06 11:49:21,2.740s,PASSED
+"click(findTestObject(""Object Repository/Request_initiate/Page_Procurement Request Initiate/button_Save""))",Chrome 70.0.3538.110,,2018-12-06 11:49:21,2018-12-06 11:49:23,2.139s,PASSED
+acceptAlert(),Chrome 70.0.3538.110,,2018-12-06 11:49:23,2018-12-06 11:49:25,2.041s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Request_initiate/Page_Procurement Request Initiate/select_--Select--product1produ""), ""13"", true)",Chrome 70.0.3538.110,Positive Value,2018-12-06 11:49:25,2018-12-06 11:49:43,18.373s,PASSED
+"setText(findTestObject(""Object Repository/Request_initiate/Page_Procurement Request Initiate/input__fromBundleRange""), ""50"")",Chrome 70.0.3538.110,,2018-12-06 11:49:43,2018-12-06 11:49:47,4.184s,PASSED
+"setText(findTestObject(""Object Repository/Request_initiate/Page_Procurement Request Initiate/input__toBundleRange""), ""1000"")",Chrome 70.0.3538.110,,2018-12-06 11:49:47,2018-12-06 11:49:52,4.191s,PASSED
+"click(findTestObject(""Object Repository/Request_initiate/Page_Procurement Request Initiate/i_Attachments_fa fa-paperclip""))",Chrome 70.0.3538.110,,2018-12-06 11:49:52,2018-12-06 11:49:54,2.163s,PASSED
+"switchToWindowTitle(""Procurement Request Attachments"")",Chrome 70.0.3538.110,,2018-12-06 11:49:54,2018-12-06 11:50:00,6.103s,PASSED
+"uploadFile(findTestObject(""Object Repository/Request_initiate/attachment/Page_Procurement Request Attachment/input_Choose more files_files0""), ""C:\Users\ankita\Desktop\retest\data.txt"")",Chrome 70.0.3538.110,,2018-12-06 11:50:00,2018-12-06 11:50:02,2.106s,PASSED
+"click(findTestObject(""Object Repository/Request_initiate/Page_Procurement Request Attachment/button_Attach""))",Chrome 70.0.3538.110,,2018-12-06 11:50:02,2018-12-06 11:50:05,2.497s,PASSED
+"switchToWindowTitle(""Procurement Request Initiate"")",Chrome 70.0.3538.110,,2018-12-06 11:50:05,2018-12-06 11:50:08,3.025s,PASSED
+"click(findTestObject(""Object Repository/Request_initiate/Page_Procurement Request Initiate/button_Save""))",Chrome 70.0.3538.110,,2018-12-06 11:50:08,2018-12-06 11:50:10,2.557s,PASSED
+"click(findTestObject(""Object Repository/Request_initiate/Page_Procurement Request Initiate/button_Clear""))",Chrome 70.0.3538.110,,2018-12-06 11:50:10,2018-12-06 11:50:13,2.516s,PASSED
+"click(findTestObject(""Object Repository/Logout/Page_Bank Dashboard/span_Harshada""))",Chrome 70.0.3538.110,,2018-12-06 11:50:13,2018-12-06 11:50:15,2.150s,PASSED
+"click(findTestObject(""Object Repository/Logout/Page_Bank Dashboard/b_Logout""))",Chrome 70.0.3538.110,,2018-12-06 11:50:15,2018-12-06 11:50:17,2.590s,PASSED
+"click(findTestObject(""Object Repository/Logout/Page_Logout Page/a_Login""))",Chrome 70.0.3538.110,,2018-12-06 11:50:17,2018-12-06 11:50:20,2.186s,PASSED
+,,,,,,
+Test Cases/Branch User Checker/Request Return,Chrome 70.0.3538.110,,2018-12-06 11:50:20,2018-12-06 11:51:26,1m - 6.942s,FAILED
+"openBrowser("""")",Chrome 70.0.3538.110,,2018-12-06 11:50:20,2018-12-06 11:50:26,6.331s,PASSED
+maximizeWindow(),Chrome 70.0.3538.110,,2018-12-06 11:50:26,2018-12-06 11:50:28,2.130s,PASSED
+navigateToUrl(URL),Chrome 70.0.3538.110,,2018-12-06 11:50:28,2018-12-06 11:50:30,1.252s,PASSED
+"setText(findTestObject(""Object Repository/Request_initiate/Page_Login Page/input_Vendor platform_userid""), BrCkName)",Chrome 70.0.3538.110,,2018-12-06 11:50:30,2018-12-06 11:50:34,4.215s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Request_initiate/Page_Login Page/input_Vendor platform_password""), BrCkPwd)",Chrome 70.0.3538.110,,2018-12-06 11:50:34,2018-12-06 11:50:37,3.180s,PASSED
+"click(findTestObject(""Object Repository/Request_initiate/Page_Login Page/input_Vendor platform_btnlogin""))",Chrome 70.0.3538.110,,2018-12-06 11:50:37,2018-12-06 11:50:41,3.998s,PASSED
+AlertPresent = waitForAlert(5),Chrome 70.0.3538.110,,2018-12-06 11:50:41,2018-12-06 11:50:42,1.008s,PASSED
+if (AlertPresent == true),Chrome 70.0.3538.110,,2018-12-06 11:50:42,2018-12-06 11:50:44,2.016s,PASSED
+"click(findTestObject(""Request_initiate/Page_Bank Dashboard/span_Procurement Request (1)""))",Chrome 70.0.3538.110,,2018-12-06 11:50:44,2018-12-06 11:50:46,2.130s,PASSED
+"click(findTestObject(""Object Repository/Request_initiate/Page_Bank Dashboard/a_Authorize""))",Chrome 70.0.3538.110,,2018-12-06 11:50:46,2018-12-06 11:50:49,2.555s,PASSED
+"click(findTestObject(""Object Repository/Request Authorize/Page_Procurement Request Authorize/button_Return""))",Chrome 70.0.3538.110,,2018-12-06 11:50:49,2018-12-06 11:50:51,2.135s,PASSED
+acceptAlert(),Chrome 70.0.3538.110,,2018-12-06 11:50:51,2018-12-06 11:50:53,2.013s,PASSED
+"click(findTestObject(""Object Repository/Request_initiate/Page_Procurement Request Initiate/button_List""))",Chrome 70.0.3538.110,,2018-12-06 11:50:53,2018-12-06 11:50:55,2.150s,PASSED
+"switchToWindowTitle(""Search"")",Chrome 70.0.3538.110,,2018-12-06 11:50:55,2018-12-06 11:51:01,6.077s,PASSED
+"setText(findTestObject(""Object Repository/Request_initiate/Page_Search/input_Product Name_Product Nam""), ""product3"")",Chrome 70.0.3538.110,,2018-12-06 11:51:01,2018-12-06 11:51:05,4.186s,PASSED
+"click(findTestObject(""Object Repository/Request_initiate/Page_Search/input""))",Chrome 70.0.3538.110,,2018-12-06 11:51:05,2018-12-06 11:51:08,2.494s,PASSED
+"click(findTestObject(""Object Repository/Request_initiate/Page_Search/td_product1""))",Chrome 70.0.3538.110,,2018-12-06 11:51:08,2018-12-06 11:51:10,2.120s,PASSED
+"switchToWindowTitle(""Procurement Request Authorize"")",Chrome 70.0.3538.110,,2018-12-06 11:51:10,2018-12-06 11:51:13,3.027s,PASSED
+"setText(findTestObject(""Object Repository/Request Authorize/Page_Procurement Request Authorize/textarea_Return Reason_returnQ""), ""LOREM IPSUM DOLOR SIT AMET, CONSECTETUER ADIPISCING ELIT. AENEAN COMMODO LIGULA EGET DOLOR. AENEAN MASSA. CUM SOCIIS NATOQUE PENATIBUS ET MAGNIS DIS PARTURIENT MONTES, NASCETUR RIDICULUS MUS. DONEC QUAM FELIS, ULTRICIES NEC, PELLENTESQUE EU, PRETIUM QUIS, SEM. NULLA CONSEQUAT MASSA QUIS ENIM. DONEC PEDE JUSTO, FRINGILLA VEL, ALIQUET NEC, VULPUTATE EGET, ARCU. IN ENIM JUSTO, RHONCUS UT, IMPERDIET A, VENENATIS VITAE, JUSTO. NULLAM DICTUM FELIS EU PEDE MOLLIS PRETIUM. INTEGER TINCIDUNT. CRAS DAPIBUS. VIVAMUS ELEMENTUM SEMPER NISI. AENEAN VULPUTATE ELEIFEND TELLUS. AENEAN LEO LIGULA, PORTTITOR EU, CONSEQUAT VITAE, ELEIFEND AC, ENIM. ALIQUAM LOREM ANTE, DAPIBUS IN, VIVERRA QUIS, FEUGIAT A, TELLUS. PHASELLUS VIVERRA NULLA UT METUS VARIUS LAOREET. QUISQUE RUTRUM. AENEAN IMPERDIET. ETIAM ULTRICIES NISI VEL AUGUE. CURABITUR ULLAMCORPER ULTRICIES NISI. NAM EGET DUI. ETIAM RHONCUS. MAECENAS TEMPUS, TELLUS EGET CONDIMENTUM RHONCUS, SEM QUAM SEMPER LIBERO, SIT AMET ADIPISCING SEM NEQUE SED IPSUM. N"")",Chrome 70.0.3538.110,,2018-12-06 11:51:13,2018-12-06 11:51:20,7.411s,PASSED
+"click(findTestObject(""Object Repository/Request Authorize/Page_Procurement Request Authorize/button_Return""))",Chrome 70.0.3538.110,,2018-12-06 11:51:20,2018-12-06 11:51:23,2.546s,PASSED
+acceptAlert(),Chrome 70.0.3538.110,,2018-12-06 11:51:23,2018-12-06 11:51:26,3.664s,FAILED

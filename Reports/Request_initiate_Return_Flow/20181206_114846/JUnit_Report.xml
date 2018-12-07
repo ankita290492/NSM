@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Request_initiate_Return_Flow" time="158" tests="1" failures="1" errors="0">
+   <testsuite name="Request_initiate_Return_Flow" tests="1" failures="1" errors="0" time="158" timestamp="2018-12-06 11:48:48" hostname="Ankita - Comp118.etplember.local" id="Test Suites/Request_initiate_Return_Flow">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ankita\\git\\NSM\\Reports\\Request_initiate_Return_Flow\\20181206_114846"/>
+         <property name="logFiles" value="C:\\Users\\ankita\\git\\NSM\\Reports\\Request_initiate_Return_Flow\\20181206_114846\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ankita\\git\\NSM\\Reports\\Request_initiate_Return_Flow\\20181206_114846\\1544077284336.png, C:\\Users\\ankita\\git\\NSM\\Reports\\Request_initiate_Return_Flow\\20181206_114846\\1544077285677.png"/>
+         <property name="hostName" value="Ankita - Comp118.etplember.local"/>
+         <property name="os" value="Windows 8 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Chrome 70.0.3538.110"/>
+         <property name="hostAddress" value="192.168.50.118"/>
+         <property name="sessionId" value="2e7076e573506dac05aacc3e93adc9f2"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8"/>
+      </properties>
+      <testcase name="Test Cases/Branch User Maker/Request_Initiate" classname="Test Cases/Branch User Maker/Request_Initiate" status="PASSED">
+         <system-out><![CDATA[2018-12-06 11:48:48 - [TEST_CASE][PASSED] - Test Cases/Branch User Maker/Request_Initiate: Test Cases/Branch User Maker/Request_Initiate
+
+2018-12-06 11:48:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-06 11:48:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-06 11:48:49 - [MESSAGE][INFO] - Action delay is set to 1 seconds
+
+2018-12-06 11:48:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-06 11:48:54 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2018-12-06 11:48:57 - [MESSAGE][PASSED] - Current window maximized
+
+2018-12-06 11:48:57 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'http://siachen:8007/NSMvendor' successfully
+
+2018-12-06 11:48:58 - [MESSAGE][PASSED] - Navigate to 'http://siachen:8007/NSMvendor' successfully
+
+2018-12-06 11:48:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Request_initiate/Page_Login Page/input_Vendor platform_userid"), BrMakerName): Text 'Harshada' is set on object 'Object Repository/Request_initiate/Page_Login Page/input_Vendor platform_userid'
+
+2018-12-06 11:49:02 - [MESSAGE][PASSED] - Text 'Harshada' is set on object 'Object Repository/Request_initiate/Page_Login Page/input_Vendor platform_userid'
+
+2018-12-06 11:49:02 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Request_initiate/Page_Login Page/input_Vendor platform_password"), BrMakerPwd): Text ****** has been set on object 'Object Repository/Request_initiate/Page_Login Page/input_Vendor platform_password'
+
+2018-12-06 11:49:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Request_initiate/Page_Login Page/input_Vendor platform_password'
+
+2018-12-06 11:49:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Request_initiate/Page_Login Page/input_Vendor platform_btnlogin")): Object: 'Object Repository/Request_initiate/Page_Login Page/input_Vendor platform_btnlogin' is clicked on
+
+2018-12-06 11:49:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Request_initiate/Page_Login Page/input_Vendor platform_btnlogin' is clicked on
+
+2018-12-06 11:49:10 - [TEST_STEP][PASSED] - AlertPresent = waitForAlert(5): No alert found after 5 second(s).
+
+2018-12-06 11:49:16 - [MESSAGE][WARNING] - No alert found after 5 second(s).
+
+2018-12-06 11:49:16 - [TEST_STEP][PASSED] - if (AlertPresent == true): null
+
+2018-12-06 11:49:16 - [TEST_STEP][PASSED] - click(findTestObject("Request_initiate/Page_Bank Dashboard/span_Procurement Request (1)")): Object: 'Object Repository/Request_initiate/Page_Bank Dashboard/span_Procurement Request (1)' is clicked on
+
+2018-12-06 11:49:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Request_initiate/Page_Bank Dashboard/span_Procurement Request (1)' is clicked on
+
+2018-12-06 11:49:18 - [TEST_STEP][PASSED] - click(findTestObject("Request_initiate/Page_Bank Dashboard/a_Initiate")): Object: 'Object Repository/Request_initiate/Page_Bank Dashboard/a_Initiate' is clicked on
+
+2018-12-06 11:49:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Request_initiate/Page_Bank Dashboard/a_Initiate' is clicked on
+
+2018-12-06 11:49:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Request_initiate/Page_Procurement Request Initiate/button_Save")): Object: 'Object Repository/Request_initiate/Page_Procurement Request Initiate/button_Save' is clicked on
+
+2018-12-06 11:49:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Request_initiate/Page_Procurement Request Initiate/button_Save' is clicked on
+
+2018-12-06 11:49:23 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2018-12-06 11:49:25 - [MESSAGE][PASSED] - Alert accepted
+
+2018-12-06 11:49:25 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Request_initiate/Page_Procurement Request Initiate/select_--Select--product1produ"), "13", true): All options with value '13' are selected in object 'Object Repository/Request_initiate/Page_Procurement Request Initiate/select_--Select--product1produ'  using regular expression
+
+2018-12-06 11:49:43 - [MESSAGE][PASSED] - All options with value '13' are selected in object 'Object Repository/Request_initiate/Page_Procurement Request Initiate/select_--Select--product1produ'  using regular expression
+
+2018-12-06 11:49:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Request_initiate/Page_Procurement Request Initiate/input__fromBundleRange"), "50"): Text '50' is set on object 'Object Repository/Request_initiate/Page_Procurement Request Initiate/input__fromBundleRange'
+
+2018-12-06 11:49:47 - [MESSAGE][PASSED] - Text '50' is set on object 'Object Repository/Request_initiate/Page_Procurement Request Initiate/input__fromBundleRange'
+
+2018-12-06 11:49:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Request_initiate/Page_Procurement Request Initiate/input__toBundleRange"), "1000"): Text '1000' is set on object 'Object Repository/Request_initiate/Page_Procurement Request Initiate/input__toBundleRange'
+
+2018-12-06 11:49:52 - [MESSAGE][PASSED] - Text '1000' is set on object 'Object Repository/Request_initiate/Page_Procurement Request Initiate/input__toBundleRange'
+
+2018-12-06 11:49:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Request_initiate/Page_Procurement Request Initiate/i_Attachments_fa fa-paperclip")): Object: 'Object Repository/Request_initiate/Page_Procurement Request Initiate/i_Attachments_fa fa-paperclip' is clicked on
+
+2018-12-06 11:49:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Request_initiate/Page_Procurement Request Initiate/i_Attachments_fa fa-paperclip' is clicked on
+
+2018-12-06 11:49:54 - [TEST_STEP][PASSED] - switchToWindowTitle("Procurement Request Attachments"): Switched to window with title: 'Procurement Request Attachments'
+
+2018-12-06 11:50:00 - [MESSAGE][PASSED] - Switched to window with title: 'Procurement Request Attachments'
+
+2018-12-06 11:50:00 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Object Repository/Request_initiate/attachment/Page_Procurement Request Attachment/input_Choose more files_files0"), "C:\Users\ankita\Desktop\retest\data.txt"): File 'C:\Users\ankita\Desktop\retest\data.txt' sent to object: 'Object Repository/Request_initiate/attachment/Page_Procurement Request Attachment/input_Choose more files_files0'
+
+2018-12-06 11:50:02 - [MESSAGE][PASSED] - File 'C:\Users\ankita\Desktop\retest\data.txt' sent to object: 'Object Repository/Request_initiate/attachment/Page_Procurement Request Attachment/input_Choose more files_files0'
+
+2018-12-06 11:50:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Request_initiate/Page_Procurement Request Attachment/button_Attach")): Object: 'Object Repository/Request_initiate/Page_Procurement Request Attachment/button_Attach' is clicked on
+
+2018-12-06 11:50:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Request_initiate/Page_Procurement Request Attachment/button_Attach' is clicked on
+
+2018-12-06 11:50:05 - [TEST_STEP][PASSED] - switchToWindowTitle("Procurement Request Initiate"): Switched to window with title: 'Procurement Request Initiate'
+
+2018-12-06 11:50:08 - [MESSAGE][PASSED] - Switched to window with title: 'Procurement Request Initiate'
+
+2018-12-06 11:50:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Request_initiate/Page_Procurement Request Initiate/button_Save")): Object: 'Object Repository/Request_initiate/Page_Procurement Request Initiate/button_Save' is clicked on
+
+2018-12-06 11:50:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Request_initiate/Page_Procurement Request Initiate/button_Save' is clicked on
+
+2018-12-06 11:50:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Request_initiate/Page_Procurement Request Initiate/button_Clear")): Object: 'Object Repository/Request_initiate/Page_Procurement Request Initiate/button_Clear' is clicked on
+
+2018-12-06 11:50:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Request_initiate/Page_Procurement Request Initiate/button_Clear' is clicked on
+
+2018-12-06 11:50:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Logout/Page_Bank Dashboard/span_Harshada")): Object: 'Object Repository/Logout/Page_Bank Dashboard/span_Harshada' is clicked on
+
+2018-12-06 11:50:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/Page_Bank Dashboard/span_Harshada' is clicked on
+
+2018-12-06 11:50:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Logout/Page_Bank Dashboard/b_Logout")): Object: 'Object Repository/Logout/Page_Bank Dashboard/b_Logout' is clicked on
+
+2018-12-06 11:50:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/Page_Bank Dashboard/b_Logout' is clicked on
+
+2018-12-06 11:50:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Logout/Page_Logout Page/a_Login")): Object: 'Object Repository/Logout/Page_Logout Page/a_Login' is clicked on
+
+2018-12-06 11:50:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/Page_Logout Page/a_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Branch User Checker/Request Return" classname="Test Cases/Branch User Checker/Request Return" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Branch User Checker/Request Return FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert (Root cause: com.kms.katalon.core.exception.StepFailedException: No alert found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$6.call(Unknown Source)
+	at Request Return.run(Request Return:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544077126306.run(TempTestSuite1544077126306.groovy:36)
+"/>
+         <system-out><![CDATA[2018-12-06 11:50:20 - [TEST_CASE][FAILED] - Test Cases/Branch User Checker/Request Return: Test Cases/Branch User Checker/Request Return FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert (Root cause: com.kms.katalon.core.exception.StepFailedException: No alert found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$6.call(Unknown Source)
+	at Request Return.run(Request Return:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544077126306.run(TempTestSuite1544077126306.groovy:36)
+
+
+2018-12-06 11:50:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-06 11:50:20 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-12-06 11:50:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-06 11:50:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-06 11:50:26 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2018-12-06 11:50:28 - [MESSAGE][PASSED] - Current window maximized
+
+2018-12-06 11:50:28 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'http://siachen:8007/NSMvendor' successfully
+
+2018-12-06 11:50:30 - [MESSAGE][PASSED] - Navigate to 'http://siachen:8007/NSMvendor' successfully
+
+2018-12-06 11:50:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Request_initiate/Page_Login Page/input_Vendor platform_userid"), BrCkName): Text 'shrutika' is set on object 'Object Repository/Request_initiate/Page_Login Page/input_Vendor platform_userid'
+
+2018-12-06 11:50:34 - [MESSAGE][PASSED] - Text 'shrutika' is set on object 'Object Repository/Request_initiate/Page_Login Page/input_Vendor platform_userid'
+
+2018-12-06 11:50:34 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Request_initiate/Page_Login Page/input_Vendor platform_password"), BrCkPwd): Text ****** has been set on object 'Object Repository/Request_initiate/Page_Login Page/input_Vendor platform_password'
+
+2018-12-06 11:50:37 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Request_initiate/Page_Login Page/input_Vendor platform_password'
+
+2018-12-06 11:50:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Request_initiate/Page_Login Page/input_Vendor platform_btnlogin")): Object: 'Object Repository/Request_initiate/Page_Login Page/input_Vendor platform_btnlogin' is clicked on
+
+2018-12-06 11:50:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Request_initiate/Page_Login Page/input_Vendor platform_btnlogin' is clicked on
+
+2018-12-06 11:50:41 - [TEST_STEP][PASSED] - AlertPresent = waitForAlert(5): Alert is present after 5 second(s).
+
+2018-12-06 11:50:42 - [MESSAGE][PASSED] - Alert is present after 5 second(s).
+
+2018-12-06 11:50:42 - [TEST_STEP][PASSED] - if (AlertPresent == true): Alert accepted
+
+2018-12-06 11:50:42 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2018-12-06 11:50:44 - [MESSAGE][PASSED] - Alert accepted
+
+2018-12-06 11:50:44 - [TEST_STEP][PASSED] - click(findTestObject("Request_initiate/Page_Bank Dashboard/span_Procurement Request (1)")): Object: 'Object Repository/Request_initiate/Page_Bank Dashboard/span_Procurement Request (1)' is clicked on
+
+2018-12-06 11:50:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Request_initiate/Page_Bank Dashboard/span_Procurement Request (1)' is clicked on
+
+2018-12-06 11:50:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Request_initiate/Page_Bank Dashboard/a_Authorize")): Object: 'Object Repository/Request_initiate/Page_Bank Dashboard/a_Authorize' is clicked on
+
+2018-12-06 11:50:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Request_initiate/Page_Bank Dashboard/a_Authorize' is clicked on
+
+2018-12-06 11:50:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Request Authorize/Page_Procurement Request Authorize/button_Return")): Object: 'Object Repository/Request Authorize/Page_Procurement Request Authorize/button_Return' is clicked on
+
+2018-12-06 11:50:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Request Authorize/Page_Procurement Request Authorize/button_Return' is clicked on
+
+2018-12-06 11:50:51 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2018-12-06 11:50:53 - [MESSAGE][PASSED] - Alert accepted
+
+2018-12-06 11:50:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Request_initiate/Page_Procurement Request Initiate/button_List")): Object: 'Object Repository/Request_initiate/Page_Procurement Request Initiate/button_List' is clicked on
+
+2018-12-06 11:50:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Request_initiate/Page_Procurement Request Initiate/button_List' is clicked on
+
+2018-12-06 11:50:55 - [TEST_STEP][PASSED] - switchToWindowTitle("Search"): Switched to window with title: 'Search'
+
+2018-12-06 11:51:01 - [MESSAGE][PASSED] - Switched to window with title: 'Search'
+
+2018-12-06 11:51:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Request_initiate/Page_Search/input_Product Name_Product Nam"), "product3"): Text 'product3' is set on object 'Object Repository/Request_initiate/Page_Search/input_Product Name_Product Nam'
+
+2018-12-06 11:51:05 - [MESSAGE][PASSED] - Text 'product3' is set on object 'Object Repository/Request_initiate/Page_Search/input_Product Name_Product Nam'
+
+2018-12-06 11:51:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Request_initiate/Page_Search/input")): Object: 'Object Repository/Request_initiate/Page_Search/input' is clicked on
+
+2018-12-06 11:51:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Request_initiate/Page_Search/input' is clicked on
+
+2018-12-06 11:51:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Request_initiate/Page_Search/td_product1")): Object: 'Object Repository/Request_initiate/Page_Search/td_product1' is clicked on
+
+2018-12-06 11:51:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Request_initiate/Page_Search/td_product1' is clicked on
+
+2018-12-06 11:51:10 - [TEST_STEP][PASSED] - switchToWindowTitle("Procurement Request Authorize"): Switched to window with title: 'Procurement Request Authorize'
+
+2018-12-06 11:51:13 - [MESSAGE][PASSED] - Switched to window with title: 'Procurement Request Authorize'
+
+2018-12-06 11:51:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Request Authorize/Page_Procurement Request Authorize/textarea_Return Reason_returnQ"), "LOREM IPSUM DOLOR SIT AMET, CONSECTETUER ADIPISCING ELIT. AENEAN COMMODO LIGULA EGET DOLOR. AENEAN MASSA. CUM SOCIIS NATOQUE PENATIBUS ET MAGNIS DIS PARTURIENT MONTES, NASCETUR RIDICULUS MUS. DONEC QUAM FELIS, ULTRICIES NEC, PELLENTESQUE EU, PRETIUM QUIS, SEM. NULLA CONSEQUAT MASSA QUIS ENIM. DONEC PEDE JUSTO, FRINGILLA VEL, ALIQUET NEC, VULPUTATE EGET, ARCU. IN ENIM JUSTO, RHONCUS UT, IMPERDIET A, VENENATIS VITAE, JUSTO. NULLAM DICTUM FELIS EU PEDE MOLLIS PRETIUM. INTEGER TINCIDUNT. CRAS DAPIBUS. VIVAMUS ELEMENTUM SEMPER NISI. AENEAN VULPUTATE ELEIFEND TELLUS. AENEAN LEO LIGULA, PORTTITOR EU, CONSEQUAT VITAE, ELEIFEND AC, ENIM. ALIQUAM LOREM ANTE, DAPIBUS IN, VIVERRA QUIS, FEUGIAT A, TELLUS. PHASELLUS VIVERRA NULLA UT METUS VARIUS LAOREET. QUISQUE RUTRUM. AENEAN IMPERDIET. ETIAM ULTRICIES NISI VEL AUGUE. CURABITUR ULLAMCORPER ULTRICIES NISI. NAM EGET DUI. ETIAM RHONCUS. MAECENAS TEMPUS, TELLUS EGET CONDIMENTUM RHONCUS, SEM QUAM SEMPER LIBERO, SIT AMET ADIPISCING SEM NEQUE SED IPSUM. N"): Text 'LOREM IPSUM DOLOR SIT AMET, CONSECTETUER ADIPISCING ELIT. AENEAN COMMODO LIGULA EGET DOLOR. AENEAN MASSA. CUM SOCIIS NATOQUE PENATIBUS ET MAGNIS DIS PARTURIENT MONTES, NASCETUR RIDICULUS MUS. DONEC QUAM FELIS, ULTRICIES NEC, PELLENTESQUE EU, PRETIUM QUIS, SEM. NULLA CONSEQUAT MASSA QUIS ENIM. DONEC PEDE JUSTO, FRINGILLA VEL, ALIQUET NEC, VULPUTATE EGET, ARCU. IN ENIM JUSTO, RHONCUS UT, IMPERDIET A, VENENATIS VITAE, JUSTO. NULLAM DICTUM FELIS EU PEDE MOLLIS PRETIUM. INTEGER TINCIDUNT. CRAS DAPIBUS. VIVAMUS ELEMENTUM SEMPER NISI. AENEAN VULPUTATE ELEIFEND TELLUS. AENEAN LEO LIGULA, PORTTITOR EU, CONSEQUAT VITAE, ELEIFEND AC, ENIM. ALIQUAM LOREM ANTE, DAPIBUS IN, VIVERRA QUIS, FEUGIAT A, TELLUS. PHASELLUS VIVERRA NULLA UT METUS VARIUS LAOREET. QUISQUE RUTRUM. AENEAN IMPERDIET. ETIAM ULTRICIES NISI VEL AUGUE. CURABITUR ULLAMCORPER ULTRICIES NISI. NAM EGET DUI. ETIAM RHONCUS. MAECENAS TEMPUS, TELLUS EGET CONDIMENTUM RHONCUS, SEM QUAM SEMPER LIBERO, SIT AMET ADIPISCING SEM NEQUE SED IPSUM. N' is set on object 'Object Repository/Request Authorize/Page_Procurement Request Authorize/textarea_Return Reason_returnQ'
+
+2018-12-06 11:51:20 - [MESSAGE][PASSED] - Text 'LOREM IPSUM DOLOR SIT AMET, CONSECTETUER ADIPISCING ELIT. AENEAN COMMODO LIGULA EGET DOLOR. AENEAN MASSA. CUM SOCIIS NATOQUE PENATIBUS ET MAGNIS DIS PARTURIENT MONTES, NASCETUR RIDICULUS MUS. DONEC QUAM FELIS, ULTRICIES NEC, PELLENTESQUE EU, PRETIUM QUIS, SEM. NULLA CONSEQUAT MASSA QUIS ENIM. DONEC PEDE JUSTO, FRINGILLA VEL, ALIQUET NEC, VULPUTATE EGET, ARCU. IN ENIM JUSTO, RHONCUS UT, IMPERDIET A, VENENATIS VITAE, JUSTO. NULLAM DICTUM FELIS EU PEDE MOLLIS PRETIUM. INTEGER TINCIDUNT. CRAS DAPIBUS. VIVAMUS ELEMENTUM SEMPER NISI. AENEAN VULPUTATE ELEIFEND TELLUS. AENEAN LEO LIGULA, PORTTITOR EU, CONSEQUAT VITAE, ELEIFEND AC, ENIM. ALIQUAM LOREM ANTE, DAPIBUS IN, VIVERRA QUIS, FEUGIAT A, TELLUS. PHASELLUS VIVERRA NULLA UT METUS VARIUS LAOREET. QUISQUE RUTRUM. AENEAN IMPERDIET. ETIAM ULTRICIES NISI VEL AUGUE. CURABITUR ULLAMCORPER ULTRICIES NISI. NAM EGET DUI. ETIAM RHONCUS. MAECENAS TEMPUS, TELLUS EGET CONDIMENTUM RHONCUS, SEM QUAM SEMPER LIBERO, SIT AMET ADIPISCING SEM NEQUE SED IPSUM. N' is set on object 'Object Repository/Request Authorize/Page_Procurement Request Authorize/textarea_Return Reason_returnQ'
+
+2018-12-06 11:51:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Request Authorize/Page_Procurement Request Authorize/button_Return")): Object: 'Object Repository/Request Authorize/Page_Procurement Request Authorize/button_Return' is clicked on
+
+2018-12-06 11:51:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Request Authorize/Page_Procurement Request Authorize/button_Return' is clicked on
+
+2018-12-06 11:51:23 - [TEST_STEP][FAILED] - acceptAlert(): acceptAlert() FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert (Root cause: com.kms.katalon.core.exception.StepFailedException: No alert found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$6.call(Unknown Source)
+	at Request Return.run(Request Return:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544077126306.run(TempTestSuite1544077126306.groovy:36)
+
+
+2018-12-06 11:51:25 - [MESSAGE][FAILED] - No alert found
+[[ATTACHMENT|C:\\Users\\ankita\\git\\NSM\\Reports\\Request_initiate_Return_Flow\\20181206_114846\\1544077284336.png]]
+
+2018-12-06 11:51:26 - [MESSAGE][FAILED] - Unable to accept alert (Root cause: com.kms.katalon.core.exception.StepFailedException: No alert found)
+[[ATTACHMENT|C:\\Users\\ankita\\git\\NSM\\Reports\\Request_initiate_Return_Flow\\20181206_114846\\1544077285677.png]]
+
+2018-12-06 11:51:26 - [MESSAGE][FAILED] - acceptAlert() FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert (Root cause: com.kms.katalon.core.exception.StepFailedException: No alert found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$6.call(Unknown Source)
+	at Request Return.run(Request Return:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544077126306.run(TempTestSuite1544077126306.groovy:36)]]></system-out>
+         <system-err><![CDATA[2018-12-06 11:50:20 - [TEST_CASE][FAILED] - Test Cases/Branch User Checker/Request Return: Test Cases/Branch User Checker/Request Return FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert (Root cause: com.kms.katalon.core.exception.StepFailedException: No alert found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$6.call(Unknown Source)
+	at Request Return.run(Request Return:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544077126306.run(TempTestSuite1544077126306.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-06 11:48:48 - [TEST_SUITE][FAILED] - Request_initiate_Return_Flow: Test Cases/Branch User Checker/Request Return FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert (Root cause: com.kms.katalon.core.exception.StepFailedException: No alert found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$6.call(Unknown Source)
+	at Request Return.run(Request Return:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544077126306.run(TempTestSuite1544077126306.groovy:36)]]></system-out>
+      <system-err><![CDATA[2018-12-06 11:48:48 - [TEST_SUITE][FAILED] - Request_initiate_Return_Flow: Test Cases/Branch User Checker/Request Return FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert (Root cause: com.kms.katalon.core.exception.StepFailedException: No alert found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$6.call(Unknown Source)
+	at Request Return.run(Request Return:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544077126306.run(TempTestSuite1544077126306.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>
