@@ -34,8 +34,9 @@ public class HighlightElement {
 				JavascriptExecutor js = (JavascriptExecutor) driver;
 				js.executeScript("arguments[0].setAttribute('style','background: yellow; border: 5px solid red;');",
 						element);
-}
+			}
 		} catch (Exception e) {
 			Assert.fail(e.getMessage());
 		}
-	}}
+	}
+}

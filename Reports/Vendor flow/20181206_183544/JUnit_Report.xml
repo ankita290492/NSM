@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Vendor flow" time="171" tests="0" failures="3" errors="0">
+   <testsuite name="Vendor flow" tests="0" failures="3" errors="0" time="171" timestamp="2018-12-06 18:35:46" hostname="Ankita - Comp118.etplember.local" id="Test Suites/Vendor flow">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ankita\\git\\NSM\\Reports\\Vendor flow\\20181206_183544"/>
+         <property name="logFiles" value="C:\\Users\\ankita\\git\\NSM\\Reports\\Vendor flow\\20181206_183544\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ankita\\git\\NSM\\Reports\\Vendor flow\\20181206_183544\\1544101609882.png, C:\\Users\\ankita\\git\\NSM\\Reports\\Vendor flow\\20181206_183544\\1544101641978.png, C:\\Users\\ankita\\git\\NSM\\Reports\\Vendor flow\\20181206_183544\\1544101716891.png"/>
+         <property name="hostName" value="Ankita - Comp118.etplember.local"/>
+         <property name="os" value="Windows 8 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Chrome 70.0.3538.110"/>
+         <property name="hostAddress" value="192.168.50.118"/>
+         <property name="sessionId" value="267543fdbeac6d0cb2aacb5b96f32f8f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8"/>
+      </properties>
+      <testcase name="Test Cases/Vendor/Invoice_Initiate" classname="Test Cases/Vendor/Invoice_Initiate" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Vendor/Invoice_Initiate FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Request_initiate/Page_Procurement Request Initiate/i_Attachments_fa fa-paperclip' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Request_initiate/Page_Procurement Request Initiate/i_Attachments_fa fa-paperclip' located by 'By.xpath: //i[@onclick='attachFiles();']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Invoice_Initiate.run(Invoice_Initiate:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544101544774.run(TempTestSuite1544101544774.groovy:36)
+"/>
+         <system-out><![CDATA[2018-12-06 18:35:47 - [TEST_CASE][FAILED] - Test Cases/Vendor/Invoice_Initiate: Test Cases/Vendor/Invoice_Initiate FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Request_initiate/Page_Procurement Request Initiate/i_Attachments_fa fa-paperclip' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Request_initiate/Page_Procurement Request Initiate/i_Attachments_fa fa-paperclip' located by 'By.xpath: //i[@onclick='attachFiles();']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Invoice_Initiate.run(Invoice_Initiate:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544101544774.run(TempTestSuite1544101544774.groovy:36)
+
+
+2018-12-06 18:35:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-06 18:35:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-06 18:35:48 - [MESSAGE][INFO] - Action delay is set to 1 seconds
+
+2018-12-06 18:35:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-06 18:35:53 - [TEST_STEP][PASSED] - navigateToUrl("http://siachen:8007/NSMvendor/"): Navigate to 'http://siachen:8007/NSMvendor/' successfully
+
+2018-12-06 18:35:55 - [MESSAGE][PASSED] - Navigate to 'http://siachen:8007/NSMvendor/' successfully
+
+2018-12-06 18:35:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Invoice_initiate/Page_Login Page/input_Vendor platform_userid"), "vendor01"): Text 'vendor01' is set on object 'Object Repository/Invoice_initiate/Page_Login Page/input_Vendor platform_userid'
+
+2018-12-06 18:35:59 - [MESSAGE][PASSED] - Text 'vendor01' is set on object 'Object Repository/Invoice_initiate/Page_Login Page/input_Vendor platform_userid'
+
+2018-12-06 18:35:59 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Invoice_initiate/Page_Login Page/input_Vendor platform_password"), "RfES2L809yyT69vCWLoDzQ=="): Text ****** has been set on object 'Object Repository/Invoice_initiate/Page_Login Page/input_Vendor platform_password'
+
+2018-12-06 18:36:02 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Invoice_initiate/Page_Login Page/input_Vendor platform_password'
+
+2018-12-06 18:36:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Invoice_initiate/Page_Login Page/input_Vendor platform_btnlogin")): Object: 'Object Repository/Invoice_initiate/Page_Login Page/input_Vendor platform_btnlogin' is clicked on
+
+2018-12-06 18:36:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Invoice_initiate/Page_Login Page/input_Vendor platform_btnlogin' is clicked on
+
+2018-12-06 18:36:06 - [TEST_STEP][PASSED] - AlertPresent = waitForAlert(5): Alert is present after 5 second(s).
+
+2018-12-06 18:36:07 - [MESSAGE][PASSED] - Alert is present after 5 second(s).
+
+2018-12-06 18:36:07 - [TEST_STEP][PASSED] - if (AlertPresent == true): Alert accepted
+
+2018-12-06 18:36:07 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2018-12-06 18:36:09 - [MESSAGE][PASSED] - Alert accepted
+
+2018-12-06 18:36:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Invoice_initiate/Page_Vendor Platform/a_Invoice")): Object: 'Object Repository/Invoice_initiate/Page_Vendor Platform/a_Invoice' is clicked on
+
+2018-12-06 18:36:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Invoice_initiate/Page_Vendor Platform/a_Invoice' is clicked on
+
+2018-12-06 18:36:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Invoice_initiate/Page_Vendor Platform/a_Initiate")): Object: 'Object Repository/Invoice_initiate/Page_Vendor Platform/a_Initiate' is clicked on
+
+2018-12-06 18:36:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Invoice_initiate/Page_Vendor Platform/a_Initiate' is clicked on
+
+2018-12-06 18:36:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Invoice_initiate/Page_Invoice Initiation/button_Show")): Object: 'Object Repository/Invoice_initiate/Page_Invoice Initiation/button_Show' is clicked on
+
+2018-12-06 18:36:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Invoice_initiate/Page_Invoice Initiation/button_Show' is clicked on
+
+2018-12-06 18:36:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Invoice_initiate/Page_Invoice Initiation/td_AXISNSM9590")): Object: 'Object Repository/Invoice_initiate/Page_Invoice Initiation/td_AXISNSM9590' is clicked on
+
+2018-12-06 18:36:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Invoice_initiate/Page_Invoice Initiation/td_AXISNSM9590' is clicked on
+
+2018-12-06 18:36:19 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Request_initiate/Page_Procurement Request Initiate/i_Attachments_fa fa-paperclip")): click(findTestObject("Object Repository/Request_initiate/Page_Procurement Request Initiate/i_Attachments_fa fa-paperclip")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Request_initiate/Page_Procurement Request Initiate/i_Attachments_fa fa-paperclip' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Request_initiate/Page_Procurement Request Initiate/i_Attachments_fa fa-paperclip' located by 'By.xpath: //i[@onclick='attachFiles();']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Invoice_Initiate.run(Invoice_Initiate:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544101544774.run(TempTestSuite1544101544774.groovy:36)
+
+
+2018-12-06 18:36:49 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //i[@onclick='attachFiles();']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2018-12-06 18:36:51 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Request_initiate/Page_Procurement Request Initiate/i_Attachments_fa fa-paperclip' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Request_initiate/Page_Procurement Request Initiate/i_Attachments_fa fa-paperclip' located by 'By.xpath: //i[@onclick='attachFiles();']' not found)
+[[ATTACHMENT|C:\\Users\\ankita\\git\\NSM\\Reports\\Vendor flow\\20181206_183544\\1544101609882.png]]
+
+2018-12-06 18:36:51 - [MESSAGE][FAILED] - click(findTestObject("Object Repository/Request_initiate/Page_Procurement Request Initiate/i_Attachments_fa fa-paperclip")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Request_initiate/Page_Procurement Request Initiate/i_Attachments_fa fa-paperclip' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Request_initiate/Page_Procurement Request Initiate/i_Attachments_fa fa-paperclip' located by 'By.xpath: //i[@onclick='attachFiles();']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Invoice_Initiate.run(Invoice_Initiate:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544101544774.run(TempTestSuite1544101544774.groovy:36)]]></system-out>
+         <system-err><![CDATA[2018-12-06 18:35:47 - [TEST_CASE][FAILED] - Test Cases/Vendor/Invoice_Initiate: Test Cases/Vendor/Invoice_Initiate FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Request_initiate/Page_Procurement Request Initiate/i_Attachments_fa fa-paperclip' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Request_initiate/Page_Procurement Request Initiate/i_Attachments_fa fa-paperclip' located by 'By.xpath: //i[@onclick='attachFiles();']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Invoice_Initiate.run(Invoice_Initiate:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544101544774.run(TempTestSuite1544101544774.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Central Head User/Invoice approval maker/Confirm" classname="Test Cases/Central Head User/Invoice approval maker/Confirm" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Central Head User/Invoice approval maker/Confirm FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'ankita' of object 'Object Repository/Invoice approval maker/Page_Login Page/input_Vendor platform_userid' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Invoice approval maker/Page_Login Page/input_Vendor platform_userid' located by 'By.xpath: //input[@id='txtuserid']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Confirm.run(Confirm:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544101544774.run(TempTestSuite1544101544774.groovy:36)
+"/>
+         <system-out><![CDATA[2018-12-06 18:36:51 - [TEST_CASE][FAILED] - Test Cases/Central Head User/Invoice approval maker/Confirm: Test Cases/Central Head User/Invoice approval maker/Confirm FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'ankita' of object 'Object Repository/Invoice approval maker/Page_Login Page/input_Vendor platform_userid' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Invoice approval maker/Page_Login Page/input_Vendor platform_userid' located by 'By.xpath: //input[@id='txtuserid']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Confirm.run(Confirm:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544101544774.run(TempTestSuite1544101544774.groovy:36)
+
+
+2018-12-06 18:36:51 - [TEST_STEP][FAILED] - setText(findTestObject("Object Repository/Invoice approval maker/Page_Login Page/input_Vendor platform_userid"), "ankita"): setText(findTestObject("Object Repository/Invoice approval maker/Page_Login Page/input_Vendor platform_userid"), "ankita") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'ankita' of object 'Object Repository/Invoice approval maker/Page_Login Page/input_Vendor platform_userid' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Invoice approval maker/Page_Login Page/input_Vendor platform_userid' located by 'By.xpath: //input[@id='txtuserid']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Confirm.run(Confirm:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544101544774.run(TempTestSuite1544101544774.groovy:36)
+
+
+2018-12-06 18:37:21 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='txtuserid']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2018-12-06 18:37:23 - [MESSAGE][FAILED] - Unable to set text 'ankita' of object 'Object Repository/Invoice approval maker/Page_Login Page/input_Vendor platform_userid' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Invoice approval maker/Page_Login Page/input_Vendor platform_userid' located by 'By.xpath: //input[@id='txtuserid']' not found)
+[[ATTACHMENT|C:\\Users\\ankita\\git\\NSM\\Reports\\Vendor flow\\20181206_183544\\1544101641978.png]]
+
+2018-12-06 18:37:23 - [MESSAGE][FAILED] - setText(findTestObject("Object Repository/Invoice approval maker/Page_Login Page/input_Vendor platform_userid"), "ankita") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'ankita' of object 'Object Repository/Invoice approval maker/Page_Login Page/input_Vendor platform_userid' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Invoice approval maker/Page_Login Page/input_Vendor platform_userid' located by 'By.xpath: //input[@id='txtuserid']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Confirm.run(Confirm:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544101544774.run(TempTestSuite1544101544774.groovy:36)]]></system-out>
+         <system-err><![CDATA[2018-12-06 18:36:51 - [TEST_CASE][FAILED] - Test Cases/Central Head User/Invoice approval maker/Confirm: Test Cases/Central Head User/Invoice approval maker/Confirm FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'ankita' of object 'Object Repository/Invoice approval maker/Page_Login Page/input_Vendor platform_userid' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Invoice approval maker/Page_Login Page/input_Vendor platform_userid' located by 'By.xpath: //input[@id='txtuserid']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Confirm.run(Confirm:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544101544774.run(TempTestSuite1544101544774.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Central Head User/Invoice approval checker/Confirm" classname="Test Cases/Central Head User/Invoice approval checker/Confirm" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Central Head User/Invoice approval checker/Confirm FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Invoice approval checker/Page_Invoice Authorization/td_HARSHADA' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Invoice approval checker/Page_Invoice Authorization/td_HARSHADA' located by 'By.xpath: //table[@id='enquiry-table']/tbody/tr/td[2]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Confirm.run(Confirm:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544101544774.run(TempTestSuite1544101544774.groovy:36)
+"/>
+         <system-out><![CDATA[2018-12-06 18:37:23 - [TEST_CASE][FAILED] - Test Cases/Central Head User/Invoice approval checker/Confirm: Test Cases/Central Head User/Invoice approval checker/Confirm FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Invoice approval checker/Page_Invoice Authorization/td_HARSHADA' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Invoice approval checker/Page_Invoice Authorization/td_HARSHADA' located by 'By.xpath: //table[@id='enquiry-table']/tbody/tr/td[2]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Confirm.run(Confirm:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544101544774.run(TempTestSuite1544101544774.groovy:36)
+
+
+2018-12-06 18:37:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-06 18:37:23 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-12-06 18:37:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-06 18:37:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-06 18:37:29 - [TEST_STEP][PASSED] - navigateToUrl("http://siachen:8007/NSMvendor/"): Navigate to 'http://siachen:8007/NSMvendor/' successfully
+
+2018-12-06 18:37:30 - [MESSAGE][PASSED] - Navigate to 'http://siachen:8007/NSMvendor/' successfully
+
+2018-12-06 18:37:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Invoice approval checker/Page_Login Page/input_Vendor platform_userid"), "shweta"): Text 'shweta' is set on object 'Object Repository/Invoice approval checker/Page_Login Page/input_Vendor platform_userid'
+
+2018-12-06 18:37:35 - [MESSAGE][PASSED] - Text 'shweta' is set on object 'Object Repository/Invoice approval checker/Page_Login Page/input_Vendor platform_userid'
+
+2018-12-06 18:37:35 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Invoice approval checker/Page_Login Page/input_Vendor platform_password"), "vNVb6EA88+z6MgvacYbj0w=="): Text ****** has been set on object 'Object Repository/Invoice approval checker/Page_Login Page/input_Vendor platform_password'
+
+2018-12-06 18:37:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Invoice approval checker/Page_Login Page/input_Vendor platform_password'
+
+2018-12-06 18:37:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Invoice approval checker/Page_Login Page/input_Vendor platform_btnlogin")): Object: 'Object Repository/Invoice approval checker/Page_Login Page/input_Vendor platform_btnlogin' is clicked on
+
+2018-12-06 18:37:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Invoice approval checker/Page_Login Page/input_Vendor platform_btnlogin' is clicked on
+
+2018-12-06 18:37:42 - [TEST_STEP][PASSED] - AlertPresent = waitForAlert(5): No alert found after 5 second(s).
+
+2018-12-06 18:37:48 - [MESSAGE][WARNING] - No alert found after 5 second(s).
+
+2018-12-06 18:37:48 - [TEST_STEP][PASSED] - if (AlertPresent == true): null
+
+2018-12-06 18:37:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Invoice approval checker/Page_Bank Dashboard/a_Invoice")): Object: 'Object Repository/Invoice approval checker/Page_Bank Dashboard/a_Invoice' is clicked on
+
+2018-12-06 18:37:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Invoice approval checker/Page_Bank Dashboard/a_Invoice' is clicked on
+
+2018-12-06 18:37:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Invoice approval checker/Page_Bank Dashboard/a_Approval cheker")): Object: 'Object Repository/Invoice approval checker/Page_Bank Dashboard/a_Approval cheker' is clicked on
+
+2018-12-06 18:37:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Invoice approval checker/Page_Bank Dashboard/a_Approval cheker' is clicked on
+
+2018-12-06 18:37:53 - [TEST_STEP][PASSED] - executeJavaScript("document.getElementById("datepicker").removeAttribute("readonly")", null): Execute JavaScript 'document.getElementById("datepicker").removeAttribute("readonly")' successfully
+
+2018-12-06 18:37:54 - [MESSAGE][PASSED] - Execute JavaScript 'document.getElementById("datepicker").removeAttribute("readonly")' successfully
+
+2018-12-06 18:37:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Invoice approval maker/Page_Invoice Approval/input_From_fromDate"), "Sat Dec 01 2018"): Text 'Sat Dec 01 2018' is set on object 'Object Repository/Invoice approval maker/Page_Invoice Approval/input_From_fromDate'
+
+2018-12-06 18:37:58 - [MESSAGE][PASSED] - Text 'Sat Dec 01 2018' is set on object 'Object Repository/Invoice approval maker/Page_Invoice Approval/input_From_fromDate'
+
+2018-12-06 18:37:58 - [TEST_STEP][PASSED] - executeJavaScript("document.getElementById("datepicker1").removeAttribute("readonly")", null): Execute JavaScript 'document.getElementById("datepicker1").removeAttribute("readonly")' successfully
+
+2018-12-06 18:37:59 - [MESSAGE][PASSED] - Execute JavaScript 'document.getElementById("datepicker1").removeAttribute("readonly")' successfully
+
+2018-12-06 18:37:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Invoice approval maker/Page_Invoice Approval/input_To_toDate"), "Tue Dec 04 2018"): Text 'Tue Dec 04 2018' is set on object 'Object Repository/Invoice approval maker/Page_Invoice Approval/input_To_toDate'
+
+2018-12-06 18:38:03 - [MESSAGE][PASSED] - Text 'Tue Dec 04 2018' is set on object 'Object Repository/Invoice approval maker/Page_Invoice Approval/input_To_toDate'
+
+2018-12-06 18:38:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Invoice approval checker/Page_Invoice Authorization/button_Show")): Object: 'Object Repository/Invoice approval checker/Page_Invoice Authorization/button_Show' is clicked on
+
+2018-12-06 18:38:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Invoice approval checker/Page_Invoice Authorization/button_Show' is clicked on
+
+2018-12-06 18:38:06 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Invoice approval checker/Page_Invoice Authorization/td_HARSHADA")): click(findTestObject("Object Repository/Invoice approval checker/Page_Invoice Authorization/td_HARSHADA")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Invoice approval checker/Page_Invoice Authorization/td_HARSHADA' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Invoice approval checker/Page_Invoice Authorization/td_HARSHADA' located by 'By.xpath: //table[@id='enquiry-table']/tbody/tr/td[2]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Confirm.run(Confirm:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544101544774.run(TempTestSuite1544101544774.groovy:36)
+
+
+2018-12-06 18:38:36 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //table[@id='enquiry-table']/tbody/tr/td[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2018-12-06 18:38:38 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Invoice approval checker/Page_Invoice Authorization/td_HARSHADA' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Invoice approval checker/Page_Invoice Authorization/td_HARSHADA' located by 'By.xpath: //table[@id='enquiry-table']/tbody/tr/td[2]' not found)
+[[ATTACHMENT|C:\\Users\\ankita\\git\\NSM\\Reports\\Vendor flow\\20181206_183544\\1544101716891.png]]
+
+2018-12-06 18:38:38 - [MESSAGE][FAILED] - click(findTestObject("Object Repository/Invoice approval checker/Page_Invoice Authorization/td_HARSHADA")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Invoice approval checker/Page_Invoice Authorization/td_HARSHADA' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Invoice approval checker/Page_Invoice Authorization/td_HARSHADA' located by 'By.xpath: //table[@id='enquiry-table']/tbody/tr/td[2]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Confirm.run(Confirm:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544101544774.run(TempTestSuite1544101544774.groovy:36)]]></system-out>
+         <system-err><![CDATA[2018-12-06 18:37:23 - [TEST_CASE][FAILED] - Test Cases/Central Head User/Invoice approval checker/Confirm: Test Cases/Central Head User/Invoice approval checker/Confirm FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Invoice approval checker/Page_Invoice Authorization/td_HARSHADA' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Invoice approval checker/Page_Invoice Authorization/td_HARSHADA' located by 'By.xpath: //table[@id='enquiry-table']/tbody/tr/td[2]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Confirm.run(Confirm:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544101544774.run(TempTestSuite1544101544774.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-06 18:35:46 - [TEST_SUITE][FAILED] - Vendor flow: Test Cases/Vendor/Invoice_Initiate FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Request_initiate/Page_Procurement Request Initiate/i_Attachments_fa fa-paperclip' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Request_initiate/Page_Procurement Request Initiate/i_Attachments_fa fa-paperclip' located by 'By.xpath: //i[@onclick='attachFiles();']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Invoice_Initiate.run(Invoice_Initiate:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544101544774.run(TempTestSuite1544101544774.groovy:36)]]></system-out>
+      <system-err><![CDATA[2018-12-06 18:35:46 - [TEST_SUITE][FAILED] - Vendor flow: Test Cases/Vendor/Invoice_Initiate FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Request_initiate/Page_Procurement Request Initiate/i_Attachments_fa fa-paperclip' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Request_initiate/Page_Procurement Request Initiate/i_Attachments_fa fa-paperclip' located by 'By.xpath: //i[@onclick='attachFiles();']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Invoice_Initiate.run(Invoice_Initiate:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544101544774.run(TempTestSuite1544101544774.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

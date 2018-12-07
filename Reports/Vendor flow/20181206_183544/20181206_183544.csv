@@ -1,0 +1,36 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Vendor flow,Chrome 70.0.3538.110,,2018-12-06 18:35:46,2018-12-06 18:38:38,2m - 51.310s,FAILED
+,,,,,,
+Test Cases/Vendor/Invoice_Initiate,Chrome 70.0.3538.110,,2018-12-06 18:35:47,2018-12-06 18:36:51,1m - 3.997s,FAILED
+"openBrowser("""")",Chrome 70.0.3538.110,,2018-12-06 18:35:47,2018-12-06 18:35:53,5.780s,PASSED
+"navigateToUrl(""http://siachen:8007/NSMvendor/"")",Chrome 70.0.3538.110,,2018-12-06 18:35:53,2018-12-06 18:35:55,1.568s,PASSED
+"setText(findTestObject(""Object Repository/Invoice_initiate/Page_Login Page/input_Vendor platform_userid""), ""vendor01"")",Chrome 70.0.3538.110,,2018-12-06 18:35:55,2018-12-06 18:35:59,4.312s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Invoice_initiate/Page_Login Page/input_Vendor platform_password""), ""RfES2L809yyT69vCWLoDzQ=="")",Chrome 70.0.3538.110,,2018-12-06 18:35:59,2018-12-06 18:36:02,3.310s,PASSED
+"click(findTestObject(""Object Repository/Invoice_initiate/Page_Login Page/input_Vendor platform_btnlogin""))",Chrome 70.0.3538.110,,2018-12-06 18:36:02,2018-12-06 18:36:06,3.959s,PASSED
+AlertPresent = waitForAlert(5),Chrome 70.0.3538.110,,2018-12-06 18:36:06,2018-12-06 18:36:07,1.024s,PASSED
+if (AlertPresent == true),Chrome 70.0.3538.110,,2018-12-06 18:36:07,2018-12-06 18:36:09,2.049s,PASSED
+"click(findTestObject(""Object Repository/Invoice_initiate/Page_Vendor Platform/a_Invoice""))",Chrome 70.0.3538.110,,2018-12-06 18:36:09,2018-12-06 18:36:11,2.161s,PASSED
+"click(findTestObject(""Object Repository/Invoice_initiate/Page_Vendor Platform/a_Initiate""))",Chrome 70.0.3538.110,,2018-12-06 18:36:11,2018-12-06 18:36:14,2.610s,PASSED
+"click(findTestObject(""Object Repository/Invoice_initiate/Page_Invoice Initiation/button_Show""))",Chrome 70.0.3538.110,,2018-12-06 18:36:14,2018-12-06 18:36:17,2.682s,PASSED
+"click(findTestObject(""Object Repository/Invoice_initiate/Page_Invoice Initiation/td_AXISNSM9590""))",Chrome 70.0.3538.110,,2018-12-06 18:36:17,2018-12-06 18:36:19,2.160s,PASSED
+"click(findTestObject(""Object Repository/Request_initiate/Page_Procurement Request Initiate/i_Attachments_fa fa-paperclip""))",Chrome 70.0.3538.110,,2018-12-06 18:36:19,2018-12-06 18:36:51,31.794s,FAILED
+,,,,,,
+Test Cases/Central Head User/Invoice approval maker/Confirm,Chrome 70.0.3538.110,,2018-12-06 18:36:51,2018-12-06 18:37:23,32.047s,FAILED
+"setText(findTestObject(""Object Repository/Invoice approval maker/Page_Login Page/input_Vendor platform_userid""), ""ankita"")",Chrome 70.0.3538.110,,2018-12-06 18:36:51,2018-12-06 18:37:23,31.696s,FAILED
+,,,,,,
+Test Cases/Central Head User/Invoice approval checker/Confirm,Chrome 70.0.3538.110,,2018-12-06 18:37:23,2018-12-06 18:38:38,1m - 14.913s,FAILED
+"openBrowser("""")",Chrome 70.0.3538.110,,2018-12-06 18:37:23,2018-12-06 18:37:29,6.092s,PASSED
+"navigateToUrl(""http://siachen:8007/NSMvendor/"")",Chrome 70.0.3538.110,,2018-12-06 18:37:29,2018-12-06 18:37:30,1.217s,PASSED
+"setText(findTestObject(""Object Repository/Invoice approval checker/Page_Login Page/input_Vendor platform_userid""), ""shweta"")",Chrome 70.0.3538.110,,2018-12-06 18:37:30,2018-12-06 18:37:35,4.211s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Invoice approval checker/Page_Login Page/input_Vendor platform_password""), ""vNVb6EA88+z6MgvacYbj0w=="")",Chrome 70.0.3538.110,,2018-12-06 18:37:35,2018-12-06 18:37:38,3.209s,PASSED
+"click(findTestObject(""Object Repository/Invoice approval checker/Page_Login Page/input_Vendor platform_btnlogin""))",Chrome 70.0.3538.110,,2018-12-06 18:37:38,2018-12-06 18:37:42,3.974s,PASSED
+AlertPresent = waitForAlert(5),Chrome 70.0.3538.110,,2018-12-06 18:37:42,2018-12-06 18:37:48,6.046s,PASSED
+if (AlertPresent == true),Chrome 70.0.3538.110,,2018-12-06 18:37:48,2018-12-06 18:37:48,0.001s,PASSED
+"click(findTestObject(""Object Repository/Invoice approval checker/Page_Bank Dashboard/a_Invoice""))",Chrome 70.0.3538.110,,2018-12-06 18:37:48,2018-12-06 18:37:50,2.159s,PASSED
+"click(findTestObject(""Object Repository/Invoice approval checker/Page_Bank Dashboard/a_Approval cheker""))",Chrome 70.0.3538.110,,2018-12-06 18:37:50,2018-12-06 18:37:53,2.733s,PASSED
+"executeJavaScript(""document.getElementById(""datepicker"").removeAttribute(""readonly"")"", null)",Chrome 70.0.3538.110,,2018-12-06 18:37:53,2018-12-06 18:37:54,1.041s,PASSED
+"setText(findTestObject(""Object Repository/Invoice approval maker/Page_Invoice Approval/input_From_fromDate""), ""Sat Dec 01 2018"")",Chrome 70.0.3538.110,,2018-12-06 18:37:54,2018-12-06 18:37:58,4.397s,PASSED
+"executeJavaScript(""document.getElementById(""datepicker1"").removeAttribute(""readonly"")"", null)",Chrome 70.0.3538.110,,2018-12-06 18:37:58,2018-12-06 18:37:59,1.011s,PASSED
+"setText(findTestObject(""Object Repository/Invoice approval maker/Page_Invoice Approval/input_To_toDate""), ""Tue Dec 04 2018"")",Chrome 70.0.3538.110,,2018-12-06 18:37:59,2018-12-06 18:38:03,4.292s,PASSED
+"click(findTestObject(""Object Repository/Invoice approval checker/Page_Invoice Authorization/button_Show""))",Chrome 70.0.3538.110,,2018-12-06 18:38:03,2018-12-06 18:38:06,2.574s,PASSED
+"click(findTestObject(""Object Repository/Invoice approval checker/Page_Invoice Authorization/td_HARSHADA""))",Chrome 70.0.3538.110,,2018-12-06 18:38:06,2018-12-06 18:38:38,31.685s,FAILED
