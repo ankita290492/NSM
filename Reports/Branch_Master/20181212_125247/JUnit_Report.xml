@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Branch_Master" time="280" tests="1" failures="1" errors="1">
+   <testsuite name="Branch_Master" tests="1" failures="1" errors="1" time="280" timestamp="2018-12-12 12:52:49" hostname="Ankita - Comp118.etplember.local" id="Test Suites/Branch_Master">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ankita\\git\\NSM\\Reports\\Branch_Master\\20181212_125247"/>
+         <property name="logFiles" value="C:\\Users\\ankita\\git\\NSM\\Reports\\Branch_Master\\20181212_125247\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ankita\\git\\NSM\\Reports\\Branch_Master\\20181212_125247\\1544599649158.png"/>
+         <property name="hostName" value="Ankita - Comp118.etplember.local"/>
+         <property name="os" value="Windows 8 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Chrome 70.0.3538.110"/>
+         <property name="hostAddress" value="192.168.50.118"/>
+         <property name="sessionId" value="cb1bd80cb836cecb6568df90c096a8b8"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8"/>
+      </properties>
+      <testcase name="Test Cases/Master/Branch/Branch" classname="Test Cases/Master/Branch/Branch" status="PASSED">
+         <system-out><![CDATA[2018-12-12 12:52:50 - [TEST_CASE][PASSED] - Test Cases/Master/Branch/Branch: Test Cases/Master/Branch/Branch
+
+2018-12-12 12:52:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-12 12:52:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-12 12:52:51 - [MESSAGE][INFO] - Action delay is set to 1 seconds
+
+2018-12-12 12:52:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-12 12:52:56 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2018-12-12 12:52:58 - [MESSAGE][PASSED] - Current window maximized
+
+2018-12-12 12:52:58 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'http://siachen:8007/NSMvendor' successfully
+
+2018-12-12 12:53:00 - [MESSAGE][PASSED] - Navigate to 'http://siachen:8007/NSMvendor' successfully
+
+2018-12-12 12:53:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Central head/Authorize/Page_Login Page/input_Vendor platform_userid"), "ankita"): Text 'ankita' is set on object 'Object Repository/Central head/Authorize/Page_Login Page/input_Vendor platform_userid'
+
+2018-12-12 12:53:04 - [MESSAGE][PASSED] - Text 'ankita' is set on object 'Object Repository/Central head/Authorize/Page_Login Page/input_Vendor platform_userid'
+
+2018-12-12 12:53:04 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Central head/Authorize/Page_Login Page/input_Vendor platform_password"), "0su8JPdqOrtdMpZY9tcdMw=="): Text ****** has been set on object 'Object Repository/Central head/Authorize/Page_Login Page/input_Vendor platform_password'
+
+2018-12-12 12:53:07 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Central head/Authorize/Page_Login Page/input_Vendor platform_password'
+
+2018-12-12 12:53:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Central head/Authorize/Page_Login Page/input_Vendor platform_btnlogin")): Object: 'Object Repository/Central head/Authorize/Page_Login Page/input_Vendor platform_btnlogin' is clicked on
+
+2018-12-12 12:53:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Central head/Authorize/Page_Login Page/input_Vendor platform_btnlogin' is clicked on
+
+2018-12-12 12:53:11 - [TEST_STEP][PASSED] - AlertPresent = waitForAlert(5): Alert is present after 5 second(s).
+
+2018-12-12 12:53:12 - [MESSAGE][PASSED] - Alert is present after 5 second(s).
+
+2018-12-12 12:53:12 - [TEST_STEP][PASSED] - if (AlertPresent == true): Alert accepted
+
+2018-12-12 12:53:12 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2018-12-12 12:53:14 - [MESSAGE][PASSED] - Alert accepted
+
+2018-12-12 12:53:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master/Branch Master/Page_Bank Dashboard/span_Masters")): Object: 'Object Repository/Master/Branch Master/Page_Bank Dashboard/span_Masters' is clicked on
+
+2018-12-12 12:53:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Master/Branch Master/Page_Bank Dashboard/span_Masters' is clicked on
+
+2018-12-12 12:53:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master/Branch Master/Page_Bank Dashboard/a_Branch Master")): Object: 'Object Repository/Master/Branch Master/Page_Bank Dashboard/a_Branch Master' is clicked on
+
+2018-12-12 12:53:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Master/Branch Master/Page_Bank Dashboard/a_Branch Master' is clicked on
+
+2018-12-12 12:53:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master/Branch Master/Page_Branch Master/button_Save")): Object: 'Object Repository/Master/Branch Master/Page_Branch Master/button_Save' is clicked on
+
+2018-12-12 12:53:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Master/Branch Master/Page_Branch Master/button_Save' is clicked on
+
+2018-12-12 12:53:21 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2018-12-12 12:53:23 - [MESSAGE][PASSED] - Alert accepted
+
+2018-12-12 12:53:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master/Branch Master/Page_Branch Master/input__branchName"), "     "): Text '     ' is set on object 'Object Repository/Master/Branch Master/Page_Branch Master/input__branchName'
+
+2018-12-12 12:53:27 - [MESSAGE][PASSED] - Text '     ' is set on object 'Object Repository/Master/Branch Master/Page_Branch Master/input__branchName'
+
+2018-12-12 12:53:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master/Branch Master/Page_Branch Master/textarea__branchAddress"), "       "): Text '       ' is set on object 'Object Repository/Master/Branch Master/Page_Branch Master/textarea__branchAddress'
+
+2018-12-12 12:53:31 - [MESSAGE][PASSED] - Text '       ' is set on object 'Object Repository/Master/Branch Master/Page_Branch Master/textarea__branchAddress'
+
+2018-12-12 12:53:31 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Master/Branch Master/Page_Branch Master/select_---Select---BRANCHCLUST"), "0", true): All options with value '0' are selected in object 'Object Repository/Master/Branch Master/Page_Branch Master/select_---Select---BRANCHCLUST'  using regular expression
+
+2018-12-12 12:53:45 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/Master/Branch Master/Page_Branch Master/select_---Select---BRANCHCLUST'  using regular expression
+
+2018-12-12 12:53:45 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Master/Branch Master/Page_Branch Master/select_---Select---ACTIVEINACT"), "0", true): All options with value '0' are selected in object 'Object Repository/Master/Branch Master/Page_Branch Master/select_---Select---ACTIVEINACT'  using regular expression
+
+2018-12-12 12:53:58 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/Master/Branch Master/Page_Branch Master/select_---Select---ACTIVEINACT'  using regular expression
+
+2018-12-12 12:53:58 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Master/Branch Master/Page_Branch Master/select_---Select---NORTHEASTWE"), "0", true): All options with value '0' are selected in object 'Object Repository/Master/Branch Master/Page_Branch Master/select_---Select---NORTHEASTWE'  using regular expression
+
+2018-12-12 12:54:12 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/Master/Branch Master/Page_Branch Master/select_---Select---NORTHEASTWE'  using regular expression
+
+2018-12-12 12:54:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master/Branch Master/Page_Branch Master/input__solId"), "      "): Text '      ' is set on object 'Object Repository/Master/Branch Master/Page_Branch Master/input__solId'
+
+2018-12-12 12:54:16 - [MESSAGE][PASSED] - Text '      ' is set on object 'Object Repository/Master/Branch Master/Page_Branch Master/input__solId'
+
+2018-12-12 12:54:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master/Branch Master/Page_Branch Master/input__managerEmpId"), "     "): Text '     ' is set on object 'Object Repository/Master/Branch Master/Page_Branch Master/input__managerEmpId'
+
+2018-12-12 12:54:20 - [MESSAGE][PASSED] - Text '     ' is set on object 'Object Repository/Master/Branch Master/Page_Branch Master/input__managerEmpId'
+
+2018-12-12 12:54:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master/Branch Master/Page_Branch Master/input__managerName"), "   @111"): Text '   @111' is set on object 'Object Repository/Master/Branch Master/Page_Branch Master/input__managerName'
+
+2018-12-12 12:54:24 - [MESSAGE][PASSED] - Text '   @111' is set on object 'Object Repository/Master/Branch Master/Page_Branch Master/input__managerName'
+
+2018-12-12 12:54:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master/Branch Master/Page_Branch Master/input__managerMobileNo"), "98745"): Text '98745' is set on object 'Object Repository/Master/Branch Master/Page_Branch Master/input__managerMobileNo'
+
+2018-12-12 12:54:29 - [MESSAGE][PASSED] - Text '98745' is set on object 'Object Repository/Master/Branch Master/Page_Branch Master/input__managerMobileNo'
+
+2018-12-12 12:54:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master/Branch Master/Page_Branch Master/input__managerEmailId"), "qa@tes"): Text 'qa@tes' is set on object 'Object Repository/Master/Branch Master/Page_Branch Master/input__managerEmailId'
+
+2018-12-12 12:54:33 - [MESSAGE][PASSED] - Text 'qa@tes' is set on object 'Object Repository/Master/Branch Master/Page_Branch Master/input__managerEmailId'
+
+2018-12-12 12:54:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master/Branch Master/Page_Branch Master/button_Save")): Object: 'Object Repository/Master/Branch Master/Page_Branch Master/button_Save' is clicked on
+
+2018-12-12 12:54:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Master/Branch Master/Page_Branch Master/button_Save' is clicked on
+
+2018-12-12 12:54:35 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2018-12-12 12:54:37 - [MESSAGE][PASSED] - Alert accepted
+
+2018-12-12 12:54:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master/Branch Master/Page_Branch Master/button_Clear")): Object: 'Object Repository/Master/Branch Master/Page_Branch Master/button_Clear' is clicked on
+
+2018-12-12 12:54:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Master/Branch Master/Page_Branch Master/button_Clear' is clicked on
+
+2018-12-12 12:54:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master/Branch Master/Page_Branch Master/input__branchName"), "k1"): Text 'k1' is set on object 'Object Repository/Master/Branch Master/Page_Branch Master/input__branchName'
+
+2018-12-12 12:54:44 - [MESSAGE][PASSED] - Text 'k1' is set on object 'Object Repository/Master/Branch Master/Page_Branch Master/input__branchName'
+
+2018-12-12 12:54:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master/Branch Master/Page_Branch Master/textarea__branchAddress"), "k1"): Text 'k1' is set on object 'Object Repository/Master/Branch Master/Page_Branch Master/textarea__branchAddress'
+
+2018-12-12 12:54:48 - [MESSAGE][PASSED] - Text 'k1' is set on object 'Object Repository/Master/Branch Master/Page_Branch Master/textarea__branchAddress'
+
+2018-12-12 12:54:48 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Master/Branch Master/Page_Branch Master/select_---Select---BRANCHCLUST"), "01", true): All options with value '01' are selected in object 'Object Repository/Master/Branch Master/Page_Branch Master/select_---Select---BRANCHCLUST'  using regular expression
+
+2018-12-12 12:55:04 - [MESSAGE][PASSED] - All options with value '01' are selected in object 'Object Repository/Master/Branch Master/Page_Branch Master/select_---Select---BRANCHCLUST'  using regular expression
+
+2018-12-12 12:55:04 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Master/Branch Master/Page_Branch Master/select_---Select---ACTIVEINACT"), "A", true): All options with value 'A' are selected in object 'Object Repository/Master/Branch Master/Page_Branch Master/select_---Select---ACTIVEINACT'  using regular expression
+
+2018-12-12 12:55:18 - [MESSAGE][PASSED] - All options with value 'A' are selected in object 'Object Repository/Master/Branch Master/Page_Branch Master/select_---Select---ACTIVEINACT'  using regular expression
+
+2018-12-12 12:55:18 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Master/Branch Master/Page_Branch Master/select_---Select---NORTHEASTWE"), "EAST", true): All options with value 'EAST' are selected in object 'Object Repository/Master/Branch Master/Page_Branch Master/select_---Select---NORTHEASTWE'  using regular expression
+
+2018-12-12 12:55:36 - [MESSAGE][PASSED] - All options with value 'EAST' are selected in object 'Object Repository/Master/Branch Master/Page_Branch Master/select_---Select---NORTHEASTWE'  using regular expression
+
+2018-12-12 12:55:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master/Branch Master/Page_Branch Master/input__solId"), "k123456"): Text 'k123456' is set on object 'Object Repository/Master/Branch Master/Page_Branch Master/input__solId'
+
+2018-12-12 12:55:40 - [MESSAGE][PASSED] - Text 'k123456' is set on object 'Object Repository/Master/Branch Master/Page_Branch Master/input__solId'
+
+2018-12-12 12:55:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master/Branch Master/Page_Branch Master/input__managerEmpId"), "k123456"): Text 'k123456' is set on object 'Object Repository/Master/Branch Master/Page_Branch Master/input__managerEmpId'
+
+2018-12-12 12:55:44 - [MESSAGE][PASSED] - Text 'k123456' is set on object 'Object Repository/Master/Branch Master/Page_Branch Master/input__managerEmpId'
+
+2018-12-12 12:55:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master/Branch Master/Page_Branch Master/input__managerName"), "k"): Text 'k' is set on object 'Object Repository/Master/Branch Master/Page_Branch Master/input__managerName'
+
+2018-12-12 12:55:48 - [MESSAGE][PASSED] - Text 'k' is set on object 'Object Repository/Master/Branch Master/Page_Branch Master/input__managerName'
+
+2018-12-12 12:55:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master/Branch Master/Page_Branch Master/input__managerMobileNo"), "9874561230"): Text '9874561230' is set on object 'Object Repository/Master/Branch Master/Page_Branch Master/input__managerMobileNo'
+
+2018-12-12 12:55:52 - [MESSAGE][PASSED] - Text '9874561230' is set on object 'Object Repository/Master/Branch Master/Page_Branch Master/input__managerMobileNo'
+
+2018-12-12 12:55:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master/Branch Master/Page_Branch Master/input__managerEmailId"), "k@test.com"): Text 'k@test.com' is set on object 'Object Repository/Master/Branch Master/Page_Branch Master/input__managerEmailId'
+
+2018-12-12 12:55:57 - [MESSAGE][PASSED] - Text 'k@test.com' is set on object 'Object Repository/Master/Branch Master/Page_Branch Master/input__managerEmailId'
+
+2018-12-12 12:55:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master/Branch Master/Page_Branch Master/button_Save")): Object: 'Object Repository/Master/Branch Master/Page_Branch Master/button_Save' is clicked on
+
+2018-12-12 12:55:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Master/Branch Master/Page_Branch Master/button_Save' is clicked on
+
+2018-12-12 12:55:59 - [TEST_STEP][PASSED] - com.reusableComponents.HighlightElement.run(findTestObject("Object Repository/Master/Branch Master/Page_Branch Master/div_Branch details saved succe")): com.reusableComponents.HighlightElement.run is PASSED
+
+2018-12-12 12:56:05 - [MESSAGE][PASSED] - com.reusableComponents.HighlightElement.run is PASSED
+
+2018-12-12 12:56:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master/Branch Master/Page_Branch Master/button_Clear")): Object: 'Object Repository/Master/Branch Master/Page_Branch Master/button_Clear' is clicked on
+
+2018-12-12 12:56:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Master/Branch Master/Page_Branch Master/button_Clear' is clicked on
+
+2018-12-12 12:56:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master/Branch Master/Page_Branch Master/button_Close")): Object: 'Object Repository/Master/Branch Master/Page_Branch Master/button_Close' is clicked on
+
+2018-12-12 12:56:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Master/Branch Master/Page_Branch Master/button_Close' is clicked on
+
+2018-12-12 12:56:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Logout/Page_Bank Dashboard/span_Harshada")): Object: 'Object Repository/Logout/Page_Bank Dashboard/span_Harshada' is clicked on
+
+2018-12-12 12:56:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/Page_Bank Dashboard/span_Harshada' is clicked on
+
+2018-12-12 12:56:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Logout/Page_Bank Dashboard/b_Logout")): Object: 'Object Repository/Logout/Page_Bank Dashboard/b_Logout' is clicked on
+
+2018-12-12 12:56:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/Page_Bank Dashboard/b_Logout' is clicked on
+
+2018-12-12 12:56:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Logout/Page_Logout Page/a_Login")): Object: 'Object Repository/Logout/Page_Logout Page/a_Login' is clicked on
+
+2018-12-12 12:56:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/Page_Logout Page/a_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Master/Branch/Branch Authrization" classname="Test Cases/Master/Branch/Branch Authrization" status="ERROR">
+         <error type="ERROR" message="Test Cases/Master/Branch/Branch Authrization FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: java.lang.AssertionError: null
+	at com.reusableComponents.HighlightElement.invokeMethod(Keyword.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Branch Authrization.run(Branch Authrization:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544599367506.run(TempTestSuite1544599367506.groovy:36)
+Caused by: java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert$fail.call(Unknown Source)
+	at com.reusableComponents.HighlightElement.run(Keyword.groovy:39)
+	at com.reusableComponents.HighlightElement.invokeMethod(Keyword.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Script1544508864011.run(Script1544508864011.groovy:54)
+	... 13 more
+"/>
+         <system-out><![CDATA[2018-12-12 12:56:17 - [TEST_CASE][ERROR] - Test Cases/Master/Branch/Branch Authrization: Test Cases/Master/Branch/Branch Authrization FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: java.lang.AssertionError: null
+	at com.reusableComponents.HighlightElement.invokeMethod(Keyword.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Branch Authrization.run(Branch Authrization:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544599367506.run(TempTestSuite1544599367506.groovy:36)
+Caused by: java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert$fail.call(Unknown Source)
+	at com.reusableComponents.HighlightElement.run(Keyword.groovy:39)
+	at com.reusableComponents.HighlightElement.invokeMethod(Keyword.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Script1544508864011.run(Script1544508864011.groovy:54)
+	... 13 more
+
+
+2018-12-12 12:56:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master/Vendor master/Page_Login Page/input_Vendor platform_userid"), "shweta"): Text 'shweta' is set on object 'Object Repository/Master/Vendor master/Page_Login Page/input_Vendor platform_userid'
+
+2018-12-12 12:56:22 - [MESSAGE][PASSED] - Text 'shweta' is set on object 'Object Repository/Master/Vendor master/Page_Login Page/input_Vendor platform_userid'
+
+2018-12-12 12:56:22 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Master/Vendor master/Page_Login Page/input_Vendor platform_password"), "srQVvDx37Y0E0mUMJ65a3A=="): Text ****** has been set on object 'Object Repository/Master/Vendor master/Page_Login Page/input_Vendor platform_password'
+
+2018-12-12 12:56:25 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Master/Vendor master/Page_Login Page/input_Vendor platform_password'
+
+2018-12-12 12:56:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master/Vendor master/Page_Login Page/input_Vendor platform_btnlogin")): Object: 'Object Repository/Master/Vendor master/Page_Login Page/input_Vendor platform_btnlogin' is clicked on
+
+2018-12-12 12:56:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Master/Vendor master/Page_Login Page/input_Vendor platform_btnlogin' is clicked on
+
+2018-12-12 12:56:28 - [TEST_STEP][PASSED] - AlertPresent = waitForAlert(5): Alert is present after 5 second(s).
+
+2018-12-12 12:56:29 - [MESSAGE][PASSED] - Alert is present after 5 second(s).
+
+2018-12-12 12:56:29 - [TEST_STEP][PASSED] - if (AlertPresent == true): Alert accepted
+
+2018-12-12 12:56:29 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2018-12-12 12:56:31 - [MESSAGE][PASSED] - Alert accepted
+
+2018-12-12 12:56:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master/Branch Master/Page_Bank Dashboard/span_Authorization")): Object: 'Object Repository/Master/Branch Master/Page_Bank Dashboard/span_Authorization' is clicked on
+
+2018-12-12 12:56:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Master/Branch Master/Page_Bank Dashboard/span_Authorization' is clicked on
+
+2018-12-12 12:56:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master/Branch Master/Page_Bank Dashboard/a_Branch Master (1)")): Object: 'Object Repository/Master/Branch Master/Page_Bank Dashboard/a_Branch Master (1)' is clicked on
+
+2018-12-12 12:56:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Master/Branch Master/Page_Bank Dashboard/a_Branch Master (1)' is clicked on
+
+2018-12-12 12:56:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master/Branch Master/Page_Branch Master/button_List (1)")): Object: 'Object Repository/Master/Branch Master/Page_Branch Master/button_List (1)' is clicked on
+
+2018-12-12 12:56:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Master/Branch Master/Page_Branch Master/button_List (1)' is clicked on
+
+2018-12-12 12:56:37 - [TEST_STEP][PASSED] - switchToWindowTitle("Search"): Switched to window with title: 'Search'
+
+2018-12-12 12:56:44 - [MESSAGE][PASSED] - Switched to window with title: 'Search'
+
+2018-12-12 12:56:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master/Branch Master/Page_Search/input_Branch Name_Branch Name (1)"), "k1"): Text 'k1' is set on object 'Object Repository/Master/Branch Master/Page_Search/input_Branch Name_Branch Name (1)'
+
+2018-12-12 12:56:48 - [MESSAGE][PASSED] - Text 'k1' is set on object 'Object Repository/Master/Branch Master/Page_Search/input_Branch Name_Branch Name (1)'
+
+2018-12-12 12:56:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master/Branch Master/Page_Search/input (1)")): Object: 'Object Repository/Master/Branch Master/Page_Search/input (1)' is clicked on
+
+2018-12-12 12:56:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Master/Branch Master/Page_Search/input (1)' is clicked on
+
+2018-12-12 12:56:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master/Branch Master/Page_Search/td_QA")): Object: 'Object Repository/Master/Branch Master/Page_Search/td_QA' is clicked on
+
+2018-12-12 12:56:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Master/Branch Master/Page_Search/td_QA' is clicked on
+
+2018-12-12 12:56:52 - [TEST_STEP][PASSED] - switchToWindowTitle("Branch Master"): Switched to window with title: 'Branch Master'
+
+2018-12-12 12:56:55 - [MESSAGE][PASSED] - Switched to window with title: 'Branch Master'
+
+2018-12-12 12:56:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master/Branch Master/Page_Branch Master/button_Authorize")): Object: 'Object Repository/Master/Branch Master/Page_Branch Master/button_Authorize' is clicked on
+
+2018-12-12 12:56:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Master/Branch Master/Page_Branch Master/button_Authorize' is clicked on
+
+2018-12-12 12:56:58 - [TEST_STEP][ERROR] - com.reusableComponents.HighlightElement.run(findTestObject("Page_Branch Master/div_Record Authorized successf")): com.reusableComponents.HighlightElement.run(findTestObject("Page_Branch Master/div_Record Authorized successf")) FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: java.lang.AssertionError: null
+	at com.reusableComponents.HighlightElement.invokeMethod(Keyword.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Branch Authrization.run(Branch Authrization:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544599367506.run(TempTestSuite1544599367506.groovy:36)
+Caused by: java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert$fail.call(Unknown Source)
+	at com.reusableComponents.HighlightElement.run(Keyword.groovy:39)
+	at com.reusableComponents.HighlightElement.invokeMethod(Keyword.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Script1544508864011.run(Script1544508864011.groovy:54)
+	... 13 more
+
+
+2018-12-12 12:56:58 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Page_Branch Master/div_Record Authorized successf' does not exist
+
+2018-12-12 12:56:58 - [MESSAGE][FAILED] - java.lang.AssertionError: null
+
+2018-12-12 12:56:58 - [MESSAGE][ERROR] - com.reusableComponents.HighlightElement.run(findTestObject("Page_Branch Master/div_Record Authorized successf")) FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: java.lang.AssertionError: null
+	at com.reusableComponents.HighlightElement.invokeMethod(Keyword.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Branch Authrization.run(Branch Authrization:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544599367506.run(TempTestSuite1544599367506.groovy:36)
+Caused by: java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert$fail.call(Unknown Source)
+	at com.reusableComponents.HighlightElement.run(Keyword.groovy:39)
+	at com.reusableComponents.HighlightElement.invokeMethod(Keyword.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Script1544508864011.run(Script1544508864011.groovy:54)
+	... 13 more]]></system-out>
+         <system-err><![CDATA[2018-12-12 12:56:17 - [TEST_CASE][ERROR] - Test Cases/Master/Branch/Branch Authrization: Test Cases/Master/Branch/Branch Authrization FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: java.lang.AssertionError: null
+	at com.reusableComponents.HighlightElement.invokeMethod(Keyword.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Branch Authrization.run(Branch Authrization:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544599367506.run(TempTestSuite1544599367506.groovy:36)
+Caused by: java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert$fail.call(Unknown Source)
+	at com.reusableComponents.HighlightElement.run(Keyword.groovy:39)
+	at com.reusableComponents.HighlightElement.invokeMethod(Keyword.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Script1544508864011.run(Script1544508864011.groovy:54)
+	... 13 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Master/Branch/Branch reject" classname="Test Cases/Master/Branch/Branch reject" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Master/Branch/Branch reject FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'shweta' of object 'Object Repository/Master/Vendor master/Page_Login Page/input_Vendor platform_userid' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Master/Vendor master/Page_Login Page/input_Vendor platform_userid' located by 'By.xpath: //input[@id='txtuserid']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Branch reject.run(Branch reject:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544599367506.run(TempTestSuite1544599367506.groovy:36)
+"/>
+         <system-out><![CDATA[2018-12-12 12:56:58 - [TEST_CASE][FAILED] - Test Cases/Master/Branch/Branch reject: Test Cases/Master/Branch/Branch reject FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'shweta' of object 'Object Repository/Master/Vendor master/Page_Login Page/input_Vendor platform_userid' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Master/Vendor master/Page_Login Page/input_Vendor platform_userid' located by 'By.xpath: //input[@id='txtuserid']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Branch reject.run(Branch reject:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544599367506.run(TempTestSuite1544599367506.groovy:36)
+
+
+2018-12-12 12:56:58 - [TEST_STEP][FAILED] - setText(findTestObject("Object Repository/Master/Vendor master/Page_Login Page/input_Vendor platform_userid"), "shweta"): setText(findTestObject("Object Repository/Master/Vendor master/Page_Login Page/input_Vendor platform_userid"), "shweta") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'shweta' of object 'Object Repository/Master/Vendor master/Page_Login Page/input_Vendor platform_userid' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Master/Vendor master/Page_Login Page/input_Vendor platform_userid' located by 'By.xpath: //input[@id='txtuserid']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Branch reject.run(Branch reject:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544599367506.run(TempTestSuite1544599367506.groovy:36)
+
+
+2018-12-12 12:57:29 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='txtuserid']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2018-12-12 12:57:30 - [MESSAGE][FAILED] - Unable to set text 'shweta' of object 'Object Repository/Master/Vendor master/Page_Login Page/input_Vendor platform_userid' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Master/Vendor master/Page_Login Page/input_Vendor platform_userid' located by 'By.xpath: //input[@id='txtuserid']' not found)
+[[ATTACHMENT|C:\\Users\\ankita\\git\\NSM\\Reports\\Branch_Master\\20181212_125247\\1544599649158.png]]
+
+2018-12-12 12:57:30 - [MESSAGE][FAILED] - setText(findTestObject("Object Repository/Master/Vendor master/Page_Login Page/input_Vendor platform_userid"), "shweta") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'shweta' of object 'Object Repository/Master/Vendor master/Page_Login Page/input_Vendor platform_userid' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Master/Vendor master/Page_Login Page/input_Vendor platform_userid' located by 'By.xpath: //input[@id='txtuserid']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Branch reject.run(Branch reject:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544599367506.run(TempTestSuite1544599367506.groovy:36)]]></system-out>
+         <system-err><![CDATA[2018-12-12 12:56:58 - [TEST_CASE][FAILED] - Test Cases/Master/Branch/Branch reject: Test Cases/Master/Branch/Branch reject FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'shweta' of object 'Object Repository/Master/Vendor master/Page_Login Page/input_Vendor platform_userid' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Master/Vendor master/Page_Login Page/input_Vendor platform_userid' located by 'By.xpath: //input[@id='txtuserid']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Branch reject.run(Branch reject:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544599367506.run(TempTestSuite1544599367506.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-12 12:52:49 - [TEST_SUITE][ERROR] - Branch_Master: Test Cases/Master/Branch/Branch Authrization FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: java.lang.AssertionError: null
+	at com.reusableComponents.HighlightElement.invokeMethod(Keyword.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Branch Authrization.run(Branch Authrization:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544599367506.run(TempTestSuite1544599367506.groovy:36)
+Caused by: java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert$fail.call(Unknown Source)
+	at com.reusableComponents.HighlightElement.run(Keyword.groovy:39)
+	at com.reusableComponents.HighlightElement.invokeMethod(Keyword.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Script1544508864011.run(Script1544508864011.groovy:54)
+	... 13 more]]></system-out>
+      <system-err><![CDATA[2018-12-12 12:52:49 - [TEST_SUITE][ERROR] - Branch_Master: Test Cases/Master/Branch/Branch Authrization FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: java.lang.AssertionError: null
+	at com.reusableComponents.HighlightElement.invokeMethod(Keyword.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Branch Authrization.run(Branch Authrization:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544599367506.run(TempTestSuite1544599367506.groovy:36)
+Caused by: java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert$fail.call(Unknown Source)
+	at com.reusableComponents.HighlightElement.run(Keyword.groovy:39)
+	at com.reusableComponents.HighlightElement.invokeMethod(Keyword.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at Script1544508864011.run(Script1544508864011.groovy:54)
+	... 13 more]]></system-err>
+   </testsuite>
+</testsuites>

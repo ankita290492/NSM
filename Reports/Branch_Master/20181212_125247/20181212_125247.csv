@@ -1,0 +1,66 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Branch_Master,Chrome 70.0.3538.110,,2018-12-12 12:52:49,2018-12-12 12:57:30,4m - 40.785s,ERROR
+,,,,,,
+Test Cases/Master/Branch/Branch,Chrome 70.0.3538.110,,2018-12-12 12:52:50,2018-12-12 12:56:17,3m - 27.691s,PASSED
+"openBrowser("""")",Chrome 70.0.3538.110,,2018-12-12 12:52:50,2018-12-12 12:52:56,5.771s,PASSED
+maximizeWindow(),Chrome 70.0.3538.110,,2018-12-12 12:52:56,2018-12-12 12:52:58,2.160s,PASSED
+navigateToUrl(URL),Chrome 70.0.3538.110,,2018-12-12 12:52:58,2018-12-12 12:53:00,1.668s,PASSED
+"setText(findTestObject(""Object Repository/Central head/Authorize/Page_Login Page/input_Vendor platform_userid""), ""ankita"")",Chrome 70.0.3538.110,,2018-12-12 12:53:00,2018-12-12 12:53:04,4.320s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Central head/Authorize/Page_Login Page/input_Vendor platform_password""), ""0su8JPdqOrtdMpZY9tcdMw=="")",Chrome 70.0.3538.110,,2018-12-12 12:53:04,2018-12-12 12:53:07,3.291s,PASSED
+"click(findTestObject(""Object Repository/Central head/Authorize/Page_Login Page/input_Vendor platform_btnlogin""))",Chrome 70.0.3538.110,,2018-12-12 12:53:07,2018-12-12 12:53:11,3.509s,PASSED
+AlertPresent = waitForAlert(5),Chrome 70.0.3538.110,,2018-12-12 12:53:11,2018-12-12 12:53:12,1.032s,PASSED
+if (AlertPresent == true),Chrome 70.0.3538.110,,2018-12-12 12:53:12,2018-12-12 12:53:14,2.044s,PASSED
+"click(findTestObject(""Object Repository/Master/Branch Master/Page_Bank Dashboard/span_Masters""))",Chrome 70.0.3538.110,,2018-12-12 12:53:14,2018-12-12 12:53:16,2.152s,PASSED
+"click(findTestObject(""Object Repository/Master/Branch Master/Page_Bank Dashboard/a_Branch Master""))",Chrome 70.0.3538.110,,2018-12-12 12:53:16,2018-12-12 12:53:19,2.535s,PASSED
+"click(findTestObject(""Object Repository/Master/Branch Master/Page_Branch Master/button_Save""))",Chrome 70.0.3538.110,,2018-12-12 12:53:19,2018-12-12 12:53:21,2.137s,PASSED
+acceptAlert(),Chrome 70.0.3538.110,,2018-12-12 12:53:21,2018-12-12 12:53:23,2.016s,PASSED
+"setText(findTestObject(""Object Repository/Master/Branch Master/Page_Branch Master/input__branchName""), ""     "")",Chrome 70.0.3538.110,,2018-12-12 12:53:23,2018-12-12 12:53:27,4.204s,PASSED
+"setText(findTestObject(""Object Repository/Master/Branch Master/Page_Branch Master/textarea__branchAddress""), ""       "")",Chrome 70.0.3538.110,,2018-12-12 12:53:27,2018-12-12 12:53:31,4.196s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Master/Branch Master/Page_Branch Master/select_---Select---BRANCHCLUST""), ""0"", true)",Chrome 70.0.3538.110,,2018-12-12 12:53:31,2018-12-12 12:53:45,14.250s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Master/Branch Master/Page_Branch Master/select_---Select---ACTIVEINACT""), ""0"", true)",Chrome 70.0.3538.110,,2018-12-12 12:53:45,2018-12-12 12:53:58,12.191s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Master/Branch Master/Page_Branch Master/select_---Select---NORTHEASTWE""), ""0"", true)",Chrome 70.0.3538.110,,2018-12-12 12:53:58,2018-12-12 12:54:12,14.227s,PASSED
+"setText(findTestObject(""Object Repository/Master/Branch Master/Page_Branch Master/input__solId""), ""      "")",Chrome 70.0.3538.110,,2018-12-12 12:54:12,2018-12-12 12:54:16,4.172s,PASSED
+"setText(findTestObject(""Object Repository/Master/Branch Master/Page_Branch Master/input__managerEmpId""), ""     "")",Chrome 70.0.3538.110,,2018-12-12 12:54:16,2018-12-12 12:54:20,4.189s,PASSED
+"setText(findTestObject(""Object Repository/Master/Branch Master/Page_Branch Master/input__managerName""), ""   @111"")",Chrome 70.0.3538.110,,2018-12-12 12:54:20,2018-12-12 12:54:24,4.195s,PASSED
+"setText(findTestObject(""Object Repository/Master/Branch Master/Page_Branch Master/input__managerMobileNo""), ""98745"")",Chrome 70.0.3538.110,,2018-12-12 12:54:24,2018-12-12 12:54:29,4.177s,PASSED
+"setText(findTestObject(""Object Repository/Master/Branch Master/Page_Branch Master/input__managerEmailId""), ""qa@tes"")",Chrome 70.0.3538.110,,2018-12-12 12:54:29,2018-12-12 12:54:33,4.216s,PASSED
+"click(findTestObject(""Object Repository/Master/Branch Master/Page_Branch Master/button_Save""))",Chrome 70.0.3538.110,,2018-12-12 12:54:33,2018-12-12 12:54:35,2.114s,PASSED
+acceptAlert(),Chrome 70.0.3538.110,,2018-12-12 12:54:35,2018-12-12 12:54:37,2.013s,PASSED
+"click(findTestObject(""Object Repository/Master/Branch Master/Page_Branch Master/button_Clear""))",Chrome 70.0.3538.110,,2018-12-12 12:54:37,2018-12-12 12:54:39,2.519s,PASSED
+"setText(findTestObject(""Object Repository/Master/Branch Master/Page_Branch Master/input__branchName""), ""k1"")",Chrome 70.0.3538.110,Positive Value record,2018-12-12 12:54:39,2018-12-12 12:54:44,4.176s,PASSED
+"setText(findTestObject(""Object Repository/Master/Branch Master/Page_Branch Master/textarea__branchAddress""), ""k1"")",Chrome 70.0.3538.110,,2018-12-12 12:54:44,2018-12-12 12:54:48,4.161s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Master/Branch Master/Page_Branch Master/select_---Select---BRANCHCLUST""), ""01"", true)",Chrome 70.0.3538.110,,2018-12-12 12:54:48,2018-12-12 12:55:04,16.311s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Master/Branch Master/Page_Branch Master/select_---Select---ACTIVEINACT""), ""A"", true)",Chrome 70.0.3538.110,,2018-12-12 12:55:04,2018-12-12 12:55:18,14.274s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Master/Branch Master/Page_Branch Master/select_---Select---NORTHEASTWE""), ""EAST"", true)",Chrome 70.0.3538.110,,2018-12-12 12:55:18,2018-12-12 12:55:36,17.311s,PASSED
+"setText(findTestObject(""Object Repository/Master/Branch Master/Page_Branch Master/input__solId""), ""k123456"")",Chrome 70.0.3538.110,,2018-12-12 12:55:36,2018-12-12 12:55:40,4.196s,PASSED
+"setText(findTestObject(""Object Repository/Master/Branch Master/Page_Branch Master/input__managerEmpId""), ""k123456"")",Chrome 70.0.3538.110,,2018-12-12 12:55:40,2018-12-12 12:55:44,4.191s,PASSED
+"setText(findTestObject(""Object Repository/Master/Branch Master/Page_Branch Master/input__managerName""), ""k"")",Chrome 70.0.3538.110,,2018-12-12 12:55:44,2018-12-12 12:55:48,4.171s,PASSED
+"setText(findTestObject(""Object Repository/Master/Branch Master/Page_Branch Master/input__managerMobileNo""), ""9874561230"")",Chrome 70.0.3538.110,,2018-12-12 12:55:48,2018-12-12 12:55:52,4.224s,PASSED
+"setText(findTestObject(""Object Repository/Master/Branch Master/Page_Branch Master/input__managerEmailId""), ""k@test.com"")",Chrome 70.0.3538.110,,2018-12-12 12:55:52,2018-12-12 12:55:57,4.187s,PASSED
+"click(findTestObject(""Object Repository/Master/Branch Master/Page_Branch Master/button_Save""))",Chrome 70.0.3538.110,,2018-12-12 12:55:57,2018-12-12 12:55:59,2.620s,PASSED
+"com.reusableComponents.HighlightElement.run(findTestObject(""Object Repository/Master/Branch Master/Page_Branch Master/div_Branch details saved succe""))",Chrome 70.0.3538.110,,2018-12-12 12:55:59,2018-12-12 12:56:05,6.164s,PASSED
+"click(findTestObject(""Object Repository/Master/Branch Master/Page_Branch Master/button_Clear""))",Chrome 70.0.3538.110,,2018-12-12 12:56:05,2018-12-12 12:56:08,2.483s,PASSED
+"click(findTestObject(""Object Repository/Master/Branch Master/Page_Branch Master/button_Close""))",Chrome 70.0.3538.110,,2018-12-12 12:56:08,2018-12-12 12:56:10,2.514s,PASSED
+"click(findTestObject(""Object Repository/Logout/Page_Bank Dashboard/span_Harshada""))",Chrome 70.0.3538.110,,2018-12-12 12:56:10,2018-12-12 12:56:13,2.184s,PASSED
+"click(findTestObject(""Object Repository/Logout/Page_Bank Dashboard/b_Logout""))",Chrome 70.0.3538.110,,2018-12-12 12:56:13,2018-12-12 12:56:15,2.506s,PASSED
+"click(findTestObject(""Object Repository/Logout/Page_Logout Page/a_Login""))",Chrome 70.0.3538.110,,2018-12-12 12:56:15,2018-12-12 12:56:17,2.170s,PASSED
+,,,,,,
+Test Cases/Master/Branch/Branch Authrization,Chrome 70.0.3538.110,,2018-12-12 12:56:17,2018-12-12 12:56:58,40.753s,ERROR
+"setText(findTestObject(""Object Repository/Master/Vendor master/Page_Login Page/input_Vendor platform_userid""), ""shweta"")",Chrome 70.0.3538.110,,2018-12-12 12:56:18,2018-12-12 12:56:22,4.187s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Master/Vendor master/Page_Login Page/input_Vendor platform_password""), ""srQVvDx37Y0E0mUMJ65a3A=="")",Chrome 70.0.3538.110,,2018-12-12 12:56:22,2018-12-12 12:56:25,3.163s,PASSED
+"click(findTestObject(""Object Repository/Master/Vendor master/Page_Login Page/input_Vendor platform_btnlogin""))",Chrome 70.0.3538.110,,2018-12-12 12:56:25,2018-12-12 12:56:28,2.684s,PASSED
+AlertPresent = waitForAlert(5),Chrome 70.0.3538.110,,2018-12-12 12:56:28,2018-12-12 12:56:29,1.005s,PASSED
+if (AlertPresent == true),Chrome 70.0.3538.110,,2018-12-12 12:56:29,2018-12-12 12:56:31,2.013s,PASSED
+"click(findTestObject(""Object Repository/Master/Branch Master/Page_Bank Dashboard/span_Authorization""))",Chrome 70.0.3538.110,Authorize Record,2018-12-12 12:56:31,2018-12-12 12:56:33,2.141s,PASSED
+"click(findTestObject(""Object Repository/Master/Branch Master/Page_Bank Dashboard/a_Branch Master (1)""))",Chrome 70.0.3538.110,,2018-12-12 12:56:33,2018-12-12 12:56:35,2.511s,PASSED
+"click(findTestObject(""Object Repository/Master/Branch Master/Page_Branch Master/button_List (1)""))",Chrome 70.0.3538.110,,2018-12-12 12:56:35,2018-12-12 12:56:37,2.184s,PASSED
+"switchToWindowTitle(""Search"")",Chrome 70.0.3538.110,,2018-12-12 12:56:37,2018-12-12 12:56:44,6.097s,PASSED
+"setText(findTestObject(""Object Repository/Master/Branch Master/Page_Search/input_Branch Name_Branch Name (1)""), ""k1"")",Chrome 70.0.3538.110,,2018-12-12 12:56:44,2018-12-12 12:56:48,4.194s,PASSED
+"click(findTestObject(""Object Repository/Master/Branch Master/Page_Search/input (1)""))",Chrome 70.0.3538.110,,2018-12-12 12:56:48,2018-12-12 12:56:50,2.492s,PASSED
+"click(findTestObject(""Object Repository/Master/Branch Master/Page_Search/td_QA""))",Chrome 70.0.3538.110,,2018-12-12 12:56:50,2018-12-12 12:56:52,2.109s,PASSED
+"switchToWindowTitle(""Branch Master"")",Chrome 70.0.3538.110,,2018-12-12 12:56:52,2018-12-12 12:56:55,3.025s,PASSED
+"click(findTestObject(""Object Repository/Master/Branch Master/Page_Branch Master/button_Authorize""))",Chrome 70.0.3538.110,,2018-12-12 12:56:55,2018-12-12 12:56:58,2.598s,PASSED
+"com.reusableComponents.HighlightElement.run(findTestObject(""Page_Branch Master/div_Record Authorized successf""))",Chrome 70.0.3538.110,,2018-12-12 12:56:58,2018-12-12 12:56:58,0.052s,ERROR
+,,,,,,
+Test Cases/Master/Branch/Branch reject,Chrome 70.0.3538.110,,2018-12-12 12:56:58,2018-12-12 12:57:30,32.001s,FAILED
+"setText(findTestObject(""Object Repository/Master/Vendor master/Page_Login Page/input_Vendor platform_userid""), ""shweta"")",Chrome 70.0.3538.110,,2018-12-12 12:56:58,2018-12-12 12:57:30,31.728s,FAILED

@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//input[@id='txtuserid']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id = 'txtuserid' and @name = 'userid' and @placeholder = 'Username' and @type = 'text']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

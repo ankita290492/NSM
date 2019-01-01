@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Branch_Master" time="301" tests="2" failures="1" errors="0">
+   <testsuite name="Branch_Master" tests="2" failures="1" errors="0" time="301" timestamp="2018-12-12 13:18:14" hostname="Ankita - Comp118.etplember.local" id="Test Suites/Branch_Master">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ankita\\git\\NSM\\Reports\\Branch_Master\\20181212_131812"/>
+         <property name="logFiles" value="C:\\Users\\ankita\\git\\NSM\\Reports\\Branch_Master\\20181212_131812\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ankita\\git\\NSM\\Reports\\Branch_Master\\20181212_131812\\1544601193530.png, C:\\Users\\ankita\\git\\NSM\\Reports\\Branch_Master\\20181212_131812\\1544601194848.png"/>
+         <property name="hostName" value="Ankita - Comp118.etplember.local"/>
+         <property name="os" value="Windows 8 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Chrome 70.0.3538.110"/>
+         <property name="hostAddress" value="192.168.50.118"/>
+         <property name="sessionId" value="7486ba6da9f3cf8a802038a8f5427dbe"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8"/>
+      </properties>
+      <testcase name="Test Cases/Master/Branch/Branch" classname="Test Cases/Master/Branch/Branch" status="PASSED">
+         <system-out><![CDATA[2018-12-12 13:18:15 - [TEST_CASE][PASSED] - Test Cases/Master/Branch/Branch: Test Cases/Master/Branch/Branch
+
+2018-12-12 13:18:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-12 13:18:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-12 13:18:16 - [MESSAGE][INFO] - Action delay is set to 1 seconds
+
+2018-12-12 13:18:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-12 13:18:21 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2018-12-12 13:18:23 - [MESSAGE][PASSED] - Current window maximized
+
+2018-12-12 13:18:23 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'http://siachen:8007/NSMvendor' successfully
+
+2018-12-12 13:18:24 - [MESSAGE][PASSED] - Navigate to 'http://siachen:8007/NSMvendor' successfully
+
+2018-12-12 13:18:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Central head/Authorize/Page_Login Page/input_Vendor platform_userid"), "ankita"): Text 'ankita' is set on object 'Object Repository/Central head/Authorize/Page_Login Page/input_Vendor platform_userid'
+
+2018-12-12 13:18:29 - [MESSAGE][PASSED] - Text 'ankita' is set on object 'Object Repository/Central head/Authorize/Page_Login Page/input_Vendor platform_userid'
+
+2018-12-12 13:18:29 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Central head/Authorize/Page_Login Page/input_Vendor platform_password"), "0su8JPdqOrtdMpZY9tcdMw=="): Text ****** has been set on object 'Object Repository/Central head/Authorize/Page_Login Page/input_Vendor platform_password'
+
+2018-12-12 13:18:32 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Central head/Authorize/Page_Login Page/input_Vendor platform_password'
+
+2018-12-12 13:18:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Central head/Authorize/Page_Login Page/input_Vendor platform_btnlogin")): Object: 'Object Repository/Central head/Authorize/Page_Login Page/input_Vendor platform_btnlogin' is clicked on
+
+2018-12-12 13:18:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Central head/Authorize/Page_Login Page/input_Vendor platform_btnlogin' is clicked on
+
+2018-12-12 13:18:36 - [TEST_STEP][PASSED] - AlertPresent = waitForAlert(5): No alert found after 5 second(s).
+
+2018-12-12 13:18:42 - [MESSAGE][WARNING] - No alert found after 5 second(s).
+
+2018-12-12 13:18:42 - [TEST_STEP][PASSED] - if (AlertPresent == true): null
+
+2018-12-12 13:18:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master/Branch Master/Page_Bank Dashboard/span_Masters")): Object: 'Object Repository/Master/Branch Master/Page_Bank Dashboard/span_Masters' is clicked on
+
+2018-12-12 13:18:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Master/Branch Master/Page_Bank Dashboard/span_Masters' is clicked on
+
+2018-12-12 13:18:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master/Branch Master/Page_Bank Dashboard/a_Branch Master")): Object: 'Object Repository/Master/Branch Master/Page_Bank Dashboard/a_Branch Master' is clicked on
+
+2018-12-12 13:18:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Master/Branch Master/Page_Bank Dashboard/a_Branch Master' is clicked on
+
+2018-12-12 13:18:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master/Branch Master/Page_Branch Master/input__branchName"), "k2"): Text 'k2' is set on object 'Object Repository/Master/Branch Master/Page_Branch Master/input__branchName'
+
+2018-12-12 13:18:51 - [MESSAGE][PASSED] - Text 'k2' is set on object 'Object Repository/Master/Branch Master/Page_Branch Master/input__branchName'
+
+2018-12-12 13:18:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master/Branch Master/Page_Branch Master/textarea__branchAddress"), "k1"): Text 'k1' is set on object 'Object Repository/Master/Branch Master/Page_Branch Master/textarea__branchAddress'
+
+2018-12-12 13:18:55 - [MESSAGE][PASSED] - Text 'k1' is set on object 'Object Repository/Master/Branch Master/Page_Branch Master/textarea__branchAddress'
+
+2018-12-12 13:18:55 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Master/Branch Master/Page_Branch Master/select_---Select---BRANCHCLUST"), "01", true): All options with value '01' are selected in object 'Object Repository/Master/Branch Master/Page_Branch Master/select_---Select---BRANCHCLUST'  using regular expression
+
+2018-12-12 13:19:12 - [MESSAGE][PASSED] - All options with value '01' are selected in object 'Object Repository/Master/Branch Master/Page_Branch Master/select_---Select---BRANCHCLUST'  using regular expression
+
+2018-12-12 13:19:12 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Master/Branch Master/Page_Branch Master/select_---Select---ACTIVEINACT"), "A", true): All options with value 'A' are selected in object 'Object Repository/Master/Branch Master/Page_Branch Master/select_---Select---ACTIVEINACT'  using regular expression
+
+2018-12-12 13:19:26 - [MESSAGE][PASSED] - All options with value 'A' are selected in object 'Object Repository/Master/Branch Master/Page_Branch Master/select_---Select---ACTIVEINACT'  using regular expression
+
+2018-12-12 13:19:26 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Master/Branch Master/Page_Branch Master/select_---Select---NORTHEASTWE"), "EAST", true): All options with value 'EAST' are selected in object 'Object Repository/Master/Branch Master/Page_Branch Master/select_---Select---NORTHEASTWE'  using regular expression
+
+2018-12-12 13:19:43 - [MESSAGE][PASSED] - All options with value 'EAST' are selected in object 'Object Repository/Master/Branch Master/Page_Branch Master/select_---Select---NORTHEASTWE'  using regular expression
+
+2018-12-12 13:19:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master/Branch Master/Page_Branch Master/input__solId"), "k123456"): Text 'k123456' is set on object 'Object Repository/Master/Branch Master/Page_Branch Master/input__solId'
+
+2018-12-12 13:19:47 - [MESSAGE][PASSED] - Text 'k123456' is set on object 'Object Repository/Master/Branch Master/Page_Branch Master/input__solId'
+
+2018-12-12 13:19:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master/Branch Master/Page_Branch Master/input__managerEmpId"), "k123456"): Text 'k123456' is set on object 'Object Repository/Master/Branch Master/Page_Branch Master/input__managerEmpId'
+
+2018-12-12 13:19:52 - [MESSAGE][PASSED] - Text 'k123456' is set on object 'Object Repository/Master/Branch Master/Page_Branch Master/input__managerEmpId'
+
+2018-12-12 13:19:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master/Branch Master/Page_Branch Master/input__managerName"), "k"): Text 'k' is set on object 'Object Repository/Master/Branch Master/Page_Branch Master/input__managerName'
+
+2018-12-12 13:19:56 - [MESSAGE][PASSED] - Text 'k' is set on object 'Object Repository/Master/Branch Master/Page_Branch Master/input__managerName'
+
+2018-12-12 13:19:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master/Branch Master/Page_Branch Master/input__managerMobileNo"), "9874561230"): Text '9874561230' is set on object 'Object Repository/Master/Branch Master/Page_Branch Master/input__managerMobileNo'
+
+2018-12-12 13:20:00 - [MESSAGE][PASSED] - Text '9874561230' is set on object 'Object Repository/Master/Branch Master/Page_Branch Master/input__managerMobileNo'
+
+2018-12-12 13:20:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master/Branch Master/Page_Branch Master/input__managerEmailId"), "k@test.com"): Text 'k@test.com' is set on object 'Object Repository/Master/Branch Master/Page_Branch Master/input__managerEmailId'
+
+2018-12-12 13:20:04 - [MESSAGE][PASSED] - Text 'k@test.com' is set on object 'Object Repository/Master/Branch Master/Page_Branch Master/input__managerEmailId'
+
+2018-12-12 13:20:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master/Branch Master/Page_Branch Master/button_Save")): Object: 'Object Repository/Master/Branch Master/Page_Branch Master/button_Save' is clicked on
+
+2018-12-12 13:20:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Master/Branch Master/Page_Branch Master/button_Save' is clicked on
+
+2018-12-12 13:20:07 - [TEST_STEP][PASSED] - com.reusableComponents.HighlightElement.run(findTestObject("Object Repository/Master/Branch Master/Page_Branch Master/div_Branch details saved succe")): com.reusableComponents.HighlightElement.run is PASSED
+
+2018-12-12 13:20:13 - [MESSAGE][PASSED] - com.reusableComponents.HighlightElement.run is PASSED
+
+2018-12-12 13:20:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master/Branch Master/Page_Branch Master/button_Clear")): Object: 'Object Repository/Master/Branch Master/Page_Branch Master/button_Clear' is clicked on
+
+2018-12-12 13:20:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Master/Branch Master/Page_Branch Master/button_Clear' is clicked on
+
+2018-12-12 13:20:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master/Branch Master/Page_Branch Master/button_Close")): Object: 'Object Repository/Master/Branch Master/Page_Branch Master/button_Close' is clicked on
+
+2018-12-12 13:20:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Master/Branch Master/Page_Branch Master/button_Close' is clicked on
+
+2018-12-12 13:20:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Logout/Page_Bank Dashboard/span_Harshada")): Object: 'Object Repository/Logout/Page_Bank Dashboard/span_Harshada' is clicked on
+
+2018-12-12 13:20:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/Page_Bank Dashboard/span_Harshada' is clicked on
+
+2018-12-12 13:20:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Logout/Page_Bank Dashboard/b_Logout")): Object: 'Object Repository/Logout/Page_Bank Dashboard/b_Logout' is clicked on
+
+2018-12-12 13:20:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/Page_Bank Dashboard/b_Logout' is clicked on
+
+2018-12-12 13:20:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Logout/Page_Logout Page/a_Login")): Object: 'Object Repository/Logout/Page_Logout Page/a_Login' is clicked on
+
+2018-12-12 13:20:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/Page_Logout Page/a_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Master/Branch/Branch Authrization" classname="Test Cases/Master/Branch/Branch Authrization" status="PASSED">
+         <system-out><![CDATA[2018-12-12 13:20:25 - [TEST_CASE][PASSED] - Test Cases/Master/Branch/Branch Authrization: Test Cases/Master/Branch/Branch Authrization
+
+2018-12-12 13:20:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master/Vendor master/Page_Login Page/input_Vendor platform_userid"), "shweta"): Text 'shweta' is set on object 'Object Repository/Master/Vendor master/Page_Login Page/input_Vendor platform_userid'
+
+2018-12-12 13:20:29 - [MESSAGE][PASSED] - Text 'shweta' is set on object 'Object Repository/Master/Vendor master/Page_Login Page/input_Vendor platform_userid'
+
+2018-12-12 13:20:29 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Master/Vendor master/Page_Login Page/input_Vendor platform_password"), "srQVvDx37Y0E0mUMJ65a3A=="): Text ****** has been set on object 'Object Repository/Master/Vendor master/Page_Login Page/input_Vendor platform_password'
+
+2018-12-12 13:20:32 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Master/Vendor master/Page_Login Page/input_Vendor platform_password'
+
+2018-12-12 13:20:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master/Vendor master/Page_Login Page/input_Vendor platform_btnlogin")): Object: 'Object Repository/Master/Vendor master/Page_Login Page/input_Vendor platform_btnlogin' is clicked on
+
+2018-12-12 13:20:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Master/Vendor master/Page_Login Page/input_Vendor platform_btnlogin' is clicked on
+
+2018-12-12 13:20:35 - [TEST_STEP][PASSED] - AlertPresent = waitForAlert(5): Alert is present after 5 second(s).
+
+2018-12-12 13:20:36 - [MESSAGE][PASSED] - Alert is present after 5 second(s).
+
+2018-12-12 13:20:36 - [TEST_STEP][PASSED] - if (AlertPresent == true): Alert accepted
+
+2018-12-12 13:20:36 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2018-12-12 13:20:38 - [MESSAGE][PASSED] - Alert accepted
+
+2018-12-12 13:20:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master/Branch Master/Page_Bank Dashboard/span_Authorization")): Object: 'Object Repository/Master/Branch Master/Page_Bank Dashboard/span_Authorization' is clicked on
+
+2018-12-12 13:20:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Master/Branch Master/Page_Bank Dashboard/span_Authorization' is clicked on
+
+2018-12-12 13:20:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master/Branch Master/Page_Bank Dashboard/a_Branch Master (1)")): Object: 'Object Repository/Master/Branch Master/Page_Bank Dashboard/a_Branch Master (1)' is clicked on
+
+2018-12-12 13:20:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Master/Branch Master/Page_Bank Dashboard/a_Branch Master (1)' is clicked on
+
+2018-12-12 13:20:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master/Branch Master/Page_Branch Master/button_List (1)")): Object: 'Object Repository/Master/Branch Master/Page_Branch Master/button_List (1)' is clicked on
+
+2018-12-12 13:20:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Master/Branch Master/Page_Branch Master/button_List (1)' is clicked on
+
+2018-12-12 13:20:45 - [TEST_STEP][PASSED] - switchToWindowTitle("Search"): Switched to window with title: 'Search'
+
+2018-12-12 13:20:51 - [MESSAGE][PASSED] - Switched to window with title: 'Search'
+
+2018-12-12 13:20:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master/Branch Master/Page_Search/input_Branch Name_Branch Name (1)"), "k2"): Text 'k2' is set on object 'Object Repository/Master/Branch Master/Page_Search/input_Branch Name_Branch Name (1)'
+
+2018-12-12 13:20:55 - [MESSAGE][PASSED] - Text 'k2' is set on object 'Object Repository/Master/Branch Master/Page_Search/input_Branch Name_Branch Name (1)'
+
+2018-12-12 13:20:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master/Branch Master/Page_Search/input (1)")): Object: 'Object Repository/Master/Branch Master/Page_Search/input (1)' is clicked on
+
+2018-12-12 13:20:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Master/Branch Master/Page_Search/input (1)' is clicked on
+
+2018-12-12 13:20:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master/Branch Master/Page_Search/td_QA")): Object: 'Object Repository/Master/Branch Master/Page_Search/td_QA' is clicked on
+
+2018-12-12 13:21:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Master/Branch Master/Page_Search/td_QA' is clicked on
+
+2018-12-12 13:21:00 - [TEST_STEP][PASSED] - switchToWindowTitle("Branch Master"): Switched to window with title: 'Branch Master'
+
+2018-12-12 13:21:03 - [MESSAGE][PASSED] - Switched to window with title: 'Branch Master'
+
+2018-12-12 13:21:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master/Branch Master/Page_Branch Master/button_Authorize")): Object: 'Object Repository/Master/Branch Master/Page_Branch Master/button_Authorize' is clicked on
+
+2018-12-12 13:21:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Master/Branch Master/Page_Branch Master/button_Authorize' is clicked on
+
+2018-12-12 13:21:05 - [TEST_STEP][PASSED] - com.reusableComponents.HighlightElement.run(findTestObject("Object Repository/Master/Branch Master/Page_Branch Master/div_Record Authorized successf")): com.reusableComponents.HighlightElement.run is PASSED
+
+2018-12-12 13:21:11 - [MESSAGE][PASSED] - com.reusableComponents.HighlightElement.run is PASSED
+
+2018-12-12 13:21:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master/Branch Master/Page_Branch Master/button_Clear (1)")): Object: 'Object Repository/Master/Branch Master/Page_Branch Master/button_Clear (1)' is clicked on
+
+2018-12-12 13:21:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Master/Branch Master/Page_Branch Master/button_Clear (1)' is clicked on
+
+2018-12-12 13:21:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master/Branch Master/Page_Branch Master/button_Close (1)")): Object: 'Object Repository/Master/Branch Master/Page_Branch Master/button_Close (1)' is clicked on
+
+2018-12-12 13:21:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Master/Branch Master/Page_Branch Master/button_Close (1)' is clicked on
+
+2018-12-12 13:21:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Logout/Page_Bank Dashboard/span_Harshada")): Object: 'Object Repository/Logout/Page_Bank Dashboard/span_Harshada' is clicked on
+
+2018-12-12 13:21:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/Page_Bank Dashboard/span_Harshada' is clicked on
+
+2018-12-12 13:21:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Logout/Page_Bank Dashboard/b_Logout")): Object: 'Object Repository/Logout/Page_Bank Dashboard/b_Logout' is clicked on
+
+2018-12-12 13:21:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/Page_Bank Dashboard/b_Logout' is clicked on
+
+2018-12-12 13:21:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Logout/Page_Logout Page/a_Login")): Object: 'Object Repository/Logout/Page_Logout Page/a_Login' is clicked on
+
+2018-12-12 13:21:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/Page_Logout Page/a_Login' is clicked on
+
+2018-12-12 13:21:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Central head/Authorize/Page_Login Page/input_Vendor platform_userid"), "ankita"): Text 'ankita' is set on object 'Object Repository/Central head/Authorize/Page_Login Page/input_Vendor platform_userid'
+
+2018-12-12 13:21:28 - [MESSAGE][PASSED] - Text 'ankita' is set on object 'Object Repository/Central head/Authorize/Page_Login Page/input_Vendor platform_userid'
+
+2018-12-12 13:21:28 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Central head/Authorize/Page_Login Page/input_Vendor platform_password"), "0su8JPdqOrtdMpZY9tcdMw=="): Text ****** has been set on object 'Object Repository/Central head/Authorize/Page_Login Page/input_Vendor platform_password'
+
+2018-12-12 13:21:31 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Central head/Authorize/Page_Login Page/input_Vendor platform_password'
+
+2018-12-12 13:21:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Central head/Authorize/Page_Login Page/input_Vendor platform_btnlogin")): Object: 'Object Repository/Central head/Authorize/Page_Login Page/input_Vendor platform_btnlogin' is clicked on
+
+2018-12-12 13:21:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Central head/Authorize/Page_Login Page/input_Vendor platform_btnlogin' is clicked on
+
+2018-12-12 13:21:33 - [TEST_STEP][PASSED] - AlertPresent = waitForAlert(5): No alert found after 5 second(s).
+
+2018-12-12 13:21:39 - [MESSAGE][WARNING] - No alert found after 5 second(s).
+
+2018-12-12 13:21:39 - [TEST_STEP][PASSED] - if (AlertPresent == true): null
+
+2018-12-12 13:21:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master/Branch Master/Page_Bank Dashboard/span_Masters")): Object: 'Object Repository/Master/Branch Master/Page_Bank Dashboard/span_Masters' is clicked on
+
+2018-12-12 13:21:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Master/Branch Master/Page_Bank Dashboard/span_Masters' is clicked on
+
+2018-12-12 13:21:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master/Branch Master/Page_Bank Dashboard/a_Branch Master")): Object: 'Object Repository/Master/Branch Master/Page_Bank Dashboard/a_Branch Master' is clicked on
+
+2018-12-12 13:21:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Master/Branch Master/Page_Bank Dashboard/a_Branch Master' is clicked on
+
+2018-12-12 13:21:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master/Branch Master/Page_Branch Master/button_List")): Object: 'Object Repository/Master/Branch Master/Page_Branch Master/button_List' is clicked on
+
+2018-12-12 13:21:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Master/Branch Master/Page_Branch Master/button_List' is clicked on
+
+2018-12-12 13:21:46 - [TEST_STEP][PASSED] - switchToWindowTitle("Search"): Switched to window with title: 'Search'
+
+2018-12-12 13:21:52 - [MESSAGE][PASSED] - Switched to window with title: 'Search'
+
+2018-12-12 13:21:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master/Branch Master/Page_Search/input_Branch Name_Branch Name"), "k2"): Text 'k2' is set on object 'Object Repository/Master/Branch Master/Page_Search/input_Branch Name_Branch Name'
+
+2018-12-12 13:21:56 - [MESSAGE][PASSED] - Text 'k2' is set on object 'Object Repository/Master/Branch Master/Page_Search/input_Branch Name_Branch Name'
+
+2018-12-12 13:21:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master/Branch Master/Page_Search/input")): Object: 'Object Repository/Master/Branch Master/Page_Search/input' is clicked on
+
+2018-12-12 13:21:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Master/Branch Master/Page_Search/input' is clicked on
+
+2018-12-12 13:21:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master/Branch Master/Page_Search/td_FIRST BRANCH")): Object: 'Object Repository/Master/Branch Master/Page_Search/td_FIRST BRANCH' is clicked on
+
+2018-12-12 13:22:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Master/Branch Master/Page_Search/td_FIRST BRANCH' is clicked on
+
+2018-12-12 13:22:01 - [TEST_STEP][PASSED] - switchToWindowTitle("Branch Master"): Switched to window with title: 'Branch Master'
+
+2018-12-12 13:22:04 - [MESSAGE][PASSED] - Switched to window with title: 'Branch Master'
+
+2018-12-12 13:22:04 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Master/Branch Master/Page_Branch Master/select_---Select---ACTIVEINACT"), "I", true): All options with value 'I' are selected in object 'Object Repository/Master/Branch Master/Page_Branch Master/select_---Select---ACTIVEINACT'  using regular expression
+
+2018-12-12 13:22:19 - [MESSAGE][PASSED] - All options with value 'I' are selected in object 'Object Repository/Master/Branch Master/Page_Branch Master/select_---Select---ACTIVEINACT'  using regular expression
+
+2018-12-12 13:22:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master/Branch Master/Page_Branch Master/button_Save")): Object: 'Object Repository/Master/Branch Master/Page_Branch Master/button_Save' is clicked on
+
+2018-12-12 13:22:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Master/Branch Master/Page_Branch Master/button_Save' is clicked on
+
+2018-12-12 13:22:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Logout/Page_Bank Dashboard/span_Harshada")): Object: 'Object Repository/Logout/Page_Bank Dashboard/span_Harshada' is clicked on
+
+2018-12-12 13:22:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/Page_Bank Dashboard/span_Harshada' is clicked on
+
+2018-12-12 13:22:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Logout/Page_Bank Dashboard/b_Logout")): Object: 'Object Repository/Logout/Page_Bank Dashboard/b_Logout' is clicked on
+
+2018-12-12 13:22:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/Page_Bank Dashboard/b_Logout' is clicked on
+
+2018-12-12 13:22:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Logout/Page_Logout Page/a_Login")): Object: 'Object Repository/Logout/Page_Logout Page/a_Login' is clicked on
+
+2018-12-12 13:22:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/Page_Logout Page/a_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Master/Branch/Branch reject" classname="Test Cases/Master/Branch/Branch reject" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Master/Branch/Branch reject FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert (Root cause: com.kms.katalon.core.exception.StepFailedException: No alert found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$7.call(Unknown Source)
+	at Branch reject.run(Branch reject:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544600892701.run(TempTestSuite1544600892701.groovy:36)
+"/>
+         <system-out><![CDATA[2018-12-12 13:22:29 - [TEST_CASE][FAILED] - Test Cases/Master/Branch/Branch reject: Test Cases/Master/Branch/Branch reject FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert (Root cause: com.kms.katalon.core.exception.StepFailedException: No alert found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$7.call(Unknown Source)
+	at Branch reject.run(Branch reject:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544600892701.run(TempTestSuite1544600892701.groovy:36)
+
+
+2018-12-12 13:22:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master/Vendor master/Page_Login Page/input_Vendor platform_userid"), "shweta"): Text 'shweta' is set on object 'Object Repository/Master/Vendor master/Page_Login Page/input_Vendor platform_userid'
+
+2018-12-12 13:22:33 - [MESSAGE][PASSED] - Text 'shweta' is set on object 'Object Repository/Master/Vendor master/Page_Login Page/input_Vendor platform_userid'
+
+2018-12-12 13:22:33 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Master/Vendor master/Page_Login Page/input_Vendor platform_password"), "srQVvDx37Y0E0mUMJ65a3A=="): Text ****** has been set on object 'Object Repository/Master/Vendor master/Page_Login Page/input_Vendor platform_password'
+
+2018-12-12 13:22:36 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Master/Vendor master/Page_Login Page/input_Vendor platform_password'
+
+2018-12-12 13:22:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master/Vendor master/Page_Login Page/input_Vendor platform_btnlogin")): Object: 'Object Repository/Master/Vendor master/Page_Login Page/input_Vendor platform_btnlogin' is clicked on
+
+2018-12-12 13:22:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Master/Vendor master/Page_Login Page/input_Vendor platform_btnlogin' is clicked on
+
+2018-12-12 13:22:39 - [TEST_STEP][PASSED] - AlertPresent = waitForAlert(5): No alert found after 5 second(s).
+
+2018-12-12 13:22:45 - [MESSAGE][WARNING] - No alert found after 5 second(s).
+
+2018-12-12 13:22:45 - [TEST_STEP][PASSED] - if (AlertPresent == true): null
+
+2018-12-12 13:22:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master/Branch Master/Page_Bank Dashboard/span_Authorization")): Object: 'Object Repository/Master/Branch Master/Page_Bank Dashboard/span_Authorization' is clicked on
+
+2018-12-12 13:22:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Master/Branch Master/Page_Bank Dashboard/span_Authorization' is clicked on
+
+2018-12-12 13:22:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master/Branch Master/Page_Bank Dashboard/a_Branch Master (1)")): Object: 'Object Repository/Master/Branch Master/Page_Bank Dashboard/a_Branch Master (1)' is clicked on
+
+2018-12-12 13:22:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Master/Branch Master/Page_Bank Dashboard/a_Branch Master (1)' is clicked on
+
+2018-12-12 13:22:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master/Branch Master/Page_Branch Master/button_List (1)")): Object: 'Object Repository/Master/Branch Master/Page_Branch Master/button_List (1)' is clicked on
+
+2018-12-12 13:22:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Master/Branch Master/Page_Branch Master/button_List (1)' is clicked on
+
+2018-12-12 13:22:52 - [TEST_STEP][PASSED] - switchToWindowTitle("Search"): Switched to window with title: 'Search'
+
+2018-12-12 13:22:58 - [MESSAGE][PASSED] - Switched to window with title: 'Search'
+
+2018-12-12 13:22:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Master/Branch Master/Page_Search/input_Branch Name_Branch Name (1)"), "k2"): Text 'k2' is set on object 'Object Repository/Master/Branch Master/Page_Search/input_Branch Name_Branch Name (1)'
+
+2018-12-12 13:23:02 - [MESSAGE][PASSED] - Text 'k2' is set on object 'Object Repository/Master/Branch Master/Page_Search/input_Branch Name_Branch Name (1)'
+
+2018-12-12 13:23:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master/Branch Master/Page_Search/input (1)")): Object: 'Object Repository/Master/Branch Master/Page_Search/input (1)' is clicked on
+
+2018-12-12 13:23:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Master/Branch Master/Page_Search/input (1)' is clicked on
+
+2018-12-12 13:23:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master/Branch Master/Page_Search/td_QA")): Object: 'Object Repository/Master/Branch Master/Page_Search/td_QA' is clicked on
+
+2018-12-12 13:23:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Master/Branch Master/Page_Search/td_QA' is clicked on
+
+2018-12-12 13:23:07 - [TEST_STEP][PASSED] - switchToWindowTitle("Branch Master"): Switched to window with title: 'Branch Master'
+
+2018-12-12 13:23:10 - [MESSAGE][PASSED] - Switched to window with title: 'Branch Master'
+
+2018-12-12 13:23:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Master/Branch Master/Page_Branch Master/button_Reject")): Object: 'Object Repository/Master/Branch Master/Page_Branch Master/button_Reject' is clicked on
+
+2018-12-12 13:23:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Master/Branch Master/Page_Branch Master/button_Reject' is clicked on
+
+2018-12-12 13:23:12 - [TEST_STEP][FAILED] - acceptAlert(): acceptAlert() FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert (Root cause: com.kms.katalon.core.exception.StepFailedException: No alert found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$7.call(Unknown Source)
+	at Branch reject.run(Branch reject:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544600892701.run(TempTestSuite1544600892701.groovy:36)
+
+
+2018-12-12 13:23:14 - [MESSAGE][FAILED] - No alert found
+[[ATTACHMENT|C:\\Users\\ankita\\git\\NSM\\Reports\\Branch_Master\\20181212_131812\\1544601193530.png]]
+
+2018-12-12 13:23:16 - [MESSAGE][FAILED] - Unable to accept alert (Root cause: com.kms.katalon.core.exception.StepFailedException: No alert found)
+[[ATTACHMENT|C:\\Users\\ankita\\git\\NSM\\Reports\\Branch_Master\\20181212_131812\\1544601194848.png]]
+
+2018-12-12 13:23:16 - [MESSAGE][FAILED] - acceptAlert() FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert (Root cause: com.kms.katalon.core.exception.StepFailedException: No alert found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$7.call(Unknown Source)
+	at Branch reject.run(Branch reject:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544600892701.run(TempTestSuite1544600892701.groovy:36)]]></system-out>
+         <system-err><![CDATA[2018-12-12 13:22:29 - [TEST_CASE][FAILED] - Test Cases/Master/Branch/Branch reject: Test Cases/Master/Branch/Branch reject FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert (Root cause: com.kms.katalon.core.exception.StepFailedException: No alert found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$7.call(Unknown Source)
+	at Branch reject.run(Branch reject:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544600892701.run(TempTestSuite1544600892701.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-12 13:18:14 - [TEST_SUITE][FAILED] - Branch_Master: Test Cases/Master/Branch/Branch reject FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert (Root cause: com.kms.katalon.core.exception.StepFailedException: No alert found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$7.call(Unknown Source)
+	at Branch reject.run(Branch reject:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544600892701.run(TempTestSuite1544600892701.groovy:36)]]></system-out>
+      <system-err><![CDATA[2018-12-12 13:18:14 - [TEST_SUITE][FAILED] - Branch_Master: Test Cases/Master/Branch/Branch reject FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert (Root cause: com.kms.katalon.core.exception.StepFailedException: No alert found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$7.call(Unknown Source)
+	at Branch reject.run(Branch reject:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544600892701.run(TempTestSuite1544600892701.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

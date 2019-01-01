@@ -6,11 +6,15 @@
    <elementGuidId>fb2e39a1-e8fb-44f2-a6f2-3ee7c239416c</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//b[(text() = 'Logout' or . = 'Logout')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Vendor Platform'])[1]/following::b[1]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
